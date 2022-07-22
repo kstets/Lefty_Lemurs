@@ -1,6 +1,6 @@
 ---
 title: "LeftyLemursAnalysis"
-author: "Kate Stetson"
+author: "K.W. Stetson"
 date: "`r Sys.Date()`"
 output: html_document
 ---
