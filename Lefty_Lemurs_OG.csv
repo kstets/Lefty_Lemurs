@@ -1,0 +1,623 @@
+Troop,Focal,Species,Age,Sex,Month,Day,Year,Time,Category,Limb,H.F,Side,Side_Num,Note
+P,Carolina,Emon,12,F,6,30,2022,8:25:26,E,RH,H,R,0,Grasp silverberry with right hand and eat
+P,Carolina,Emon,12,F,6,30,2022,8:28:29,E,RH,H,R,0,Grasp and eat silverberry with right hand on top
+P,Carolina,Emon,12,F,6,30,2022,8:23:54,E,LH,H,L,1,Grab silverberry with left hand and eat
+P,Carolina,Emon,12,F,6,30,2022,8:25:47,E,LH,H,L,1,Grasp silverberry with left hand and eat
+P,Carolina,Emon,12,F,6,30,2022,8:27:13,E,LH,H,L,1,Grasp silverberry plant with left hand and eat
+P,Carolina,Emon,12,F,6,30,2022,8:43:36,E,LH,H,L,1,Forage and eat evergreen leaves with left hand
+P,Carolina,Emon,12,F,6,30,2022,8:43:49,E,RH,H,R,0,Forage and eat evergreen leaves with right hand
+P,Carolina,Emon,12,F,6,30,2022,8:55:54,E,LH,H,L,1,Eat unknown berry with left hand
+P,Carolina,Emon,12,F,6,23,2022,8:32:57,E,RH,H,R,0,Forage with right hand (silverberry)
+P,Carolina,Emon,12,F,6,23,2022,8:33:29,E,RH,H,R,0,Forage with right hand (silverberry)
+P,Carolina,Emon,12,F,6,23,2022,8:38:07,E,RH,H,R,0,Forage with right hand
+P,Carolina,Emon,12,F,6,23,2022,8:39:57,E,RH,H,R,0,"Forages with right hand (doesn't eat, but grabs branch as if she's going to forage)"
+P,Carolina,Emon,12,F,6,23,2022,8:51:59,E,RH,H,R,0,Forage with right hand (maple)
+P,Carolina,Emon,12,F,6,23,2022,8:40:24,E,RH,H,R,0,Eats silverberry out of right hand
+P,Carolina,Emon,12,F,6,23,2022,8:34:56,E,LH,H,L,1,Forage with left hand (silverberry)
+P,Carolina,Emon,12,F,6,23,2022,8:39:04,E,LH,H,L,1,Forage with left hand
+P,Carolina,Emon,12,F,6,28,2022,10:47:13,E,RH,H,R,0,Grasp silverberry branch with right hand.
+P,Carolina,Emon,12,F,6,30,2022,8:30:44,E,LH,H,L,1,Grasp silverberry with left hand on top
+P,Carolina,Emon,12,F,6,30,2022,8:36:00,E,LH,H,L,1,Grasp silverberry plant with left hand
+P,Carolina,Emon,12,F,6,30,2022,8:19:06,E,RH,H,R,0,"Grab silverberry with right hand on top, holding with both hands."
+P,Carolina,Emon,12,F,6,30,2022,8:25:00,E,RH,H,R,0,Grasp silverberry with right hand on top
+P,Carolina,Emon,12,F,6,30,2022,8:27:44,E,RH,H,R,0,Grasp silverberry with right hand on top
+P,Carolina,Emon,12,F,6,30,2022,8:28:14,E,RH,H,R,0,Grasp silverberry with right hand on top
+P,Carolina,Emon,12,F,6,30,2022,8:33:14,E,RH,H,R,0,Grasp silverberry plant with right hand
+P,Carolina,Emon,12,F,6,30,2022,8:34:00,E,RH,H,R,0,Grasp silverberry plant with right hand
+P,Carolina,Emon,12,F,6,30,2022,8:36:13,E,RH,H,R,0,Grasp silverberry plant with right hand
+P,Carolina,Emon,12,F,6,30,2022,8:36:42,E,RH,H,R,0,Grasp silverberry with right hand
+P,Carolina,Emon,12,F,6,30,2022,8:26:42,E,RH,H,R,0,Grasp silverberry with right hand and eat
+P,Carolina,Emon,12,F,6,28,2022,9:57:25,L,LH,H,L,1,Leap to bamboo branch holding it with left hand on top.
+P,Carolina,Emon,12,F,6,28,2022,10:11:30,L,LH,H,L,1,Leap to bamboo branch holding it with left hand on top.
+P,Carolina,Emon,12,F,6,28,2022,10:49:26,L,LH,H,L,1,Leap to bamboo tree with left hand on top
+P,Carolina,Emon,12,F,6,28,2022,9:58:52,L,RH,H,R,0,Leap to bamboo branch holding it with right hand on top. Does this twice.
+P,Carolina,Emon,12,F,6,28,2022,9:59:46,L,RH,H,R,0,Leap to bamboo branch holding it with right hand on top.
+P,Carolina,Emon,12,F,6,28,2022,10:43:48,L,RH,H,R,0,Moving accross bamboo with right hand on top.
+P,Carolina,Emon,12,F,6,28,2022,10:44:16,L,RH,H,R,0,Moving accross bamboo with right hand on top.
+P,Carolina,Emon,12,F,6,23,2022,8:37:50,L,LH,H,L,1,Grab branch with left hand first
+P,Carolina,Emon,12,F,6,23,2022,8:41:31,L,LH,H,L,1,"Leap to branch, grabbing it with left hand on top"
+P,Carolina,Emon,12,F,6,23,2022,8:48:00,L,RH,H,R,0,"Leap to branch, grabbing it with right hand on top"
+P,Carolina,Emon,12,F,6,23,2022,9:23:09,L,RH,H,R,0,"Leap to other branch, grasping it with right hand first"
+P,Carolina,Emon,12,F,6,23,2022,9:26:18,L,RH,H,R,0,"Leap to branch, grasping it with right hand first (right hand is on top)"
+P,Carolina,Emon,12,F,6,30,2022,8:53:24,L,LH,H,L,1,Leap to tree and grasp with left hand on top
+P,Carolina,Emon,12,F,6,30,2022,9:05:46,L,RH,H,R,0,Leap with right hand on top of branch
+P,Carolina,Emon,12,F,6,30,2022,8:37:22,L,RH,H,R,0,Leap 4 times from tree-to-tree with right hand on top
+P,Carolina,Emon,12,F,6,30,2022,8:42:44,L,RH,H,R,0,Moving down tree with right hand on top
+P,Carolina,Emon,12,F,6,28,2022,10:21:24,L,LH,H,L,1,Going down branch with left hand on top.
+P,Carolina,Emon,12,F,6,30,2022,8:39:43,L,LH,H,L,1,Leap to tree with left hand on top
+P,Carolina,Emon,12,F,6,30,2022,8:52:38,L,RH,H,R,0,"Grasp branch with right hand first, then left hand, then climb up."
+P,Carolina,Emon,12,F,6,23,2022,8:32:36,R,RH,H,R,0,Grasp branch with right hand
+P,Carolina,Emon,12,F,6,23,2022,9:11:03,R,RH,H,R,0,Grasp branch with right hand
+P,Carolina,Emon,12,F,6,28,2022,10:16:04,R,RH,H,R,0,Resting on tree with 3 limbs. Holding with both feet and right hand.
+P,Carolina,Emon,12,F,6,30,2022,8:45:37,R,LH,H,L,1,Rest while holding branch with left hand
+Maddie,Duggan,Emon,14,M,7,8,2022,10:20:50,E,LH,H,L,1,"Grasp chow with left hand, then immedately switch to right"
+Maddie,Duggan,Emon,14,M,6,28,2022,15:09:20,E,RH,H,R,0,Eat food from enrichment item from right hand
+Maddie,Duggan,Emon,14,M,6,24,2022,10:43:50,E,LH,H,L,1,Duggan eats spinach out of his left hand.
+Maddie,Duggan,Emon,14,M,7,8,2022,10:06:12,E,LH,H,L,1,Eat pineapple (from diet) with left hand
+Maddie,Duggan,Emon,14,M,7,8,2022,10:07:45,E,LH,H,L,1,Eat sweet potato (from diet) with left hand
+Maddie,Duggan,Emon,14,M,6,24,2022,9:55:02,E,RH,H,R,0,Duggan eats chow with his right hand
+Maddie,Duggan,Emon,14,M,6,24,2022,10:48:19,E,RH,H,R,0,Duggan eats diet with his right hadn
+Maddie,Duggan,Emon,14,M,6,28,2022,15:00:00,E,RH,H,R,0,Eat pineapple with right hand
+Maddie,Duggan,Emon,14,M,6,28,2022,15:02:02,E,RH,H,R,0,Eat banana slice with right hand
+Maddie,Duggan,Emon,14,M,6,28,2022,15:05:32,E,RH,H,R,0,Eat banana slice with right hand
+Maddie,Duggan,Emon,14,M,6,28,2022,15:07:30,E,RH,H,R,0,Eats food from enrichment item from right hand
+Maddie,Duggan,Emon,14,M,7,8,2022,10:06:39,E,RH,H,R,0,Eat pineapple (from diet) with right hand
+Maddie,Duggan,Emon,14,M,7,8,2022,10:07:27,E,RH,H,R,0,Eat sweet potato (from diet) with right hand
+Maddie,Duggan,Emon,14,M,7,8,2022,10:11:10,E,RH,H,R,0,Eat chow from right hand
+Maddie,Duggan,Emon,14,M,7,8,2022,10:12:16,E,RH,H,R,0,Eat chow from right hand
+Maddie,Duggan,Emon,14,M,7,8,2022,10:15:58,E,RH,H,R,0,Eat chow from right hand
+Maddie,Duggan,Emon,14,M,7,8,2022,10:16:31,E,RH,H,R,0,Eat chow from right hand
+Maddie,Duggan,Emon,14,M,7,8,2022,10:21:16,E,RH,H,R,0,Eat chow with right hand
+Maddie,Duggan,Emon,14,M,6,24,2022,10:37:46,L,LH,H,L,1,Duggan leaps to branch in enclosure. He grabs it with his left hand first.
+Maddie,Duggan,Emon,14,M,6,24,2022,10:38:08,L,RH,H,R,0,Duggan grabs his swing with his left hand first
+Maddie,Duggan,Emon,14,M,6,24,2022,10:38:38,L,RH,H,R,0,Duggan grabs his swing with his right hand first
+Maddie,Duggan,Emon,14,M,6,24,2022,10:50:30,L,RH,H,R,0,Duggan grabs swing with his right hand
+Maddie,Duggan,Emon,14,M,6,28,2022,15:45:00,L,RH,H,R,0,Grasp branch with right hand
+Maddie,Duggan,Emon,14,M,6,24,2022,10:02:24,QP,RH,H,R,0,"Duggan walks on all 4, starting with his right front limb."
+Maddie,Duggan,Emon,14,M,6,24,2022,10:30:52,QP,RH,H,R,0,"Moves on all 4s, starting with right hand."
+Maddie,Duggan,Emon,14,M,6,24,2022,10:36:59,QP,RH,H,R,0,"Moves on all 4s, starting with right hand."
+Maddie,Duggan,Emon,14,M,6,24,2022,10:27:40,QP,LH,H,L,1,Duggan moves on all 4s. He moves his left hand first.
+Maddie,Duggan,Emon,14,M,6,24,2022,10:20:23,SG,LH,H,L,1,Duggan self-grooms my licking his left hand. I guess he could also be doing it to cool himself down. He stops at 10:25:30
+Furia,Furia,Pcoq,5,F,6,24,2022,8:56:33,BP,LF,F,L,1,Move bipedally with left foot in front. Very short duration. Approx 3 seconds or less.
+Furia,Furia,Pcoq,5,F,6,24,2022,8:57:34,BP,LF,F,L,1,Move bipedally with left foot in front. Very short duration. Approx 2 seconds or less.
+Furia,Furia,Pcoq,5,F,6,24,2022,8:57:55,BP,LF,F,L,1,Move bipedally with left foot in front. Very short duration. Approx 4 seconds or less.
+Furia,Furia,Pcoq,5,F,6,27,2022,11:32:33,BP,LF,F,L,1,"Walks on 2 legs, left foot in front"
+Furia,Furia,Pcoq,5,F,6,24,2022,8:46:42,BP,RF,F,R,0,Move bipedally with right foot in front. Stop at 8:47
+Furia,Furia,Pcoq,5,F,6,24,2022,8:49:40,BP,RF,F,R,0,Move bipedally with right foot in front. Stop at 8:51:40
+Furia,Furia,Pcoq,5,F,6,24,2022,8:52:14,BP,RF,F,R,0,Move bipedally with right foot in front. Stop at 8:52:38
+Furia,Furia,Pcoq,5,F,6,24,2022,8:54:33,BP,RF,F,R,0,Move bipedally with right foot in front.
+Furia,Furia,Pcoq,5,F,6,24,2022,8:58:25,BP,RF,F,R,0,Move bipedally for short duration (approx 3 sec) with right foot in front
+Furia,Furia,Pcoq,5,F,6,24,2022,9:01:47,BP,RF,F,R,0,Move bipedally for short duration (approx 3 sec) with right foot in front
+Furia,Furia,Pcoq,5,F,6,24,2022,9:10:30,BP,RF,F,R,0,Move bipedally with right foot in front. Stop at 9:10:50
+Furia,Furia,Pcoq,5,F,6,24,2022,9:12:34,BP,RF,F,R,0,Move bipedally with right foot in front. Stop at 9:13:00
+Furia,Furia,Pcoq,5,F,6,24,2022,9:14:49,BP,RF,F,R,0,"Move bipedally with right foot in front for approx 4 sec, then stop. Then do it again for approx 4 sec."
+Furia,Furia,Pcoq,5,F,6,24,2022,9:21:36,BP,RF,F,R,0,Moves bipedally with right foot in front. Stop at 9:21:46
+Furia,Furia,Pcoq,5,F,6,24,2022,9:22:48,BP,RF,F,R,0,Move bipedally with right foot in front. Stop at 9:22:52
+Furia,Furia,Pcoq,5,F,6,27,2022,11:30:25,BP,RF,F,R,0,"Walks on 2 legs, right foot in front"
+Furia,Furia,Pcoq,5,F,7,1,2022,10:05:30,BP,RF,F,R,0,Walk bipedally with right foot in front. Stop at 10:05:41
+Furia,Furia,Pcoq,5,F,7,1,2022,10:06:40,BP,RF,F,R,0,Walk bipedally with right foot in front. Stop at 10:07:44
+Furia,Furia,Pcoq,5,F,7,1,2022,10:09:25,BP,RF,F,R,0,Walk bipedally with right foot in front. Stop at 10:09:34
+Furia,Furia,Pcoq,5,F,7,1,2022,10:31:10,BP,RF,F,R,0,Walk bipedally with right foot in front. Stop at 10:31:18
+Furia,Furia,Pcoq,5,F,6,24,2022,8:35:23,CL,LF,F,L,1,Cross legs with left foot on top
+Furia,Furia,Pcoq,5,F,6,27,2022,11:33:19,E,RH,H,R,0,Grasp leaves with left hand
+Furia,Furia,Pcoq,5,F,7,1,2022,10:16:24,E,RH,H,R,0,Laying on back. Grasps and eats unknown grass with right hand. Very cute and adorable.
+Furia,Furia,Pcoq,5,F,6,27,2022,11:33:34,E,LH,H,L,1,Eat leaves from left hand. Stop at 11:35:37
+Furia,Furia,Pcoq,5,F,7,1,2022,10:51:40,E,LH,H,L,1,Eat peanut with left hand (from diet)
+Furia,Furia,Pcoq,5,F,6,27,2022,10:45:01,E,RH,H,R,0,Eat unknown plant with right hand
+Furia,Furia,Pcoq,5,F,7,1,2022,10:51:14,E,RH,H,R,0,Eat peanut with right hand (from diet)
+Furia,Furia,Pcoq,5,F,7,1,2022,10:51:46,E,RH,H,R,0,Eat peanut with right hand (from diet)
+Furia,Furia,Pcoq,5,F,7,1,2022,10:52:25,E,RH,H,R,0,Eat diet with right hand
+Furia,Furia,Pcoq,5,F,6,24,2022,9:04:34,E,LH,H,L,1,Forage with left hand
+Furia,Furia,Pcoq,5,F,6,27,2022,11:38:31,R,RF,F,R,0,Grasp branch with right foot on on top of left foot. Resting and holding the branch with both feet
+Furia,Furia,Pcoq,5,F,6,24,2022,8:44:32,L,LH,H,L,1,Leap and grasp branch with left hand on top
+Furia,Furia,Pcoq,5,F,6,24,2022,8:45:46,L,LH,H,L,1,Leap to branch. Grasps branch with left hand on top.
+Furia,Furia,Pcoq,5,F,6,27,2022,11:32:54,L,LH,H,L,1,Grasp branch with left hand
+Furia,Furia,Pcoq,5,F,6,24,2022,9:09:00,L,RH,H,R,0,Leap to branch. Grasp with right hand on top.
+Furia,Furia,Pcoq,5,F,6,24,2022,9:30:16,L,RH,H,R,0,Leap and grasp branch with right hand first.
+Furia,Furia,Pcoq,5,F,7,1,2022,9:52:49,R,LH,H,L,1,Grasp pole with left hand on top. Sitting and holding pole with all limbs except for right hand.
+Furia,Furia,Pcoq,5,F,7,1,2022,9:57:49,R,LH,H,L,1,Sit and grasp pole with all 4 limbs. Left hand on top. Stop at 9:59:08
+Furia,Furia,Pcoq,5,F,7,1,2022,10:00:56,R,LH,H,L,1,Sit and grasp pole with just left hand. Stop at 10:01:48
+Furia,Furia,Pcoq,5,F,7,1,2022,10:02:50,R,LH,H,L,1,Grasp pole with left hand on top. Sitting and holding onto pole with all 4 limbs. Stop at 10:03:25
+Furia,Furia,Pcoq,5,F,7,1,2022,9:51:48,R,RH,H,R,0,Grasp pole with right hand on top(cling with all 4 limbs) stop at 9:43:15
+Furia,Furia,Pcoq,5,F,7,1,2022,9:52:54,R,RH,H,R,0,Grasp pole with both feet and with right hand. Left hand free. Stop at 9:53:27
+Furia,Furia,Pcoq,5,F,7,1,2022,9:54:33,R,RH,H,R,0,Grasp pole with both feet and with right hand. Left hand free.
+Furia,Furia,Pcoq,5,F,7,1,2022,10:12:12,R,RH,H,R,0,Grasp fence with right hand. Stop at 10:12:23
+Furia,Furia,Pcoq,5,F,6,27,2022,10:46:18,R,LH,H,L,1,Holds branch with left hand while resting.
+Furia,Furia,Pcoq,5,F,6,27,2022,11:29:22,R,LH,H,L,1,Hold branch with left hand on top while resting
+Furia,Furia,Pcoq,5,F,7,1,2022,10:25:36,R,LH,H,L,1,Grasp mesh fence with left hand while resting on ground. Stop at 10:27:01
+Furia,Furia,Pcoq,5,F,6,24,2022,8:32:59,SG,RF,F,R,0,Self-groom with right foot
+Furia,Furia,Pcoq,5,F,6,27,2022,10:52:02,SG,RF,F,R,0,Scratch ear with left foot. Lick left foot.
+Furia,Furia,Pcoq,5,F,6,27,2022,11:11:42,SG,RF,F,R,0,Scratch ear with right foot
+Furia,Furia,Pcoq,5,F,6,27,2022,11:03:51,SG,RH,H,R,0,Touch face with right hand
+N,Gisela,Pcoq,10,M,7,14,2022,9:29:50,BP,LF,F,L,1,Walk bipedally with left foot in front
+N,Gisela,Pcoq,10,M,7,14,2022,9:30:40,BP,LF,F,L,1,Walk bipedally with left foot in front
+N,Gisela,Pcoq,10,M,7,14,2022,9:23:21,BP,LF,F,L,1,"Walk on 2 legs, left foot front"
+N,Gisela,Pcoq,10,M,7,14,2022,9:24:40,BP,RF,F,R,0,Walk bipedally with right foot in front
+N,Gisela,Pcoq,10,M,7,13,2022,8:05:09,E,LH,H,L,1,Eat chow with left hand
+N,Gisela,Pcoq,10,M,7,14,2022,9:30:53,E,LH,H,L,1,Eat chow from left hand
+N,Gisela,Pcoq,10,M,7,13,2022,7:59:19,E,RH,H,R,0,Eat leaf with right hand
+N,Gisela,Pcoq,10,M,7,13,2022,8:06:02,E,RH,H,R,0,"Eat leaf with right hand. At same time, grasp pole with left hand and both feet. Stop at 8:06:35"
+N,Gisela,Pcoq,10,M,7,13,2022,8:17:11,E,RH,H,R,0,Eat chow with right hand
+N,Gisela,Pcoq,10,M,7,13,2022,8:17:47,E,RH,H,R,0,Eat leaf from right hand
+N,Gisela,Pcoq,10,M,7,13,2022,8:47:53,E,RH,H,R,0,Eat peanut with right hand (given by care tech so Silas can be taken for vet appointment)
+N,Gisela,Pcoq,10,M,7,14,2022,9:31:04,E,RH,H,R,0,Eat chow from right hand
+N,Gisela,Pcoq,10,M,7,14,2022,9:31:18,E,RH,H,R,0,Eat chow from right hand
+N,Gisela,Pcoq,10,M,7,13,2022,8:07:11,R,RH,H,R,0,Grasp mesh with 3 limbs (no left hand). Right hand on top.
+N,Gisela,Pcoq,10,M,7,13,2022,8:09:58,R,RH,H,R,0,Grasp pole with just right hand while sitting on platform.
+N,Gisela,Pcoq,10,M,7,13,2022,9:04:50,R,RH,H,R,0,"Grasp branch with all 4 limbs, right hand on top. Stop at 9:05:11"
+N,Gisela,Pcoq,10,M,7,13,2022,9:08:14,R,RH,H,R,0,Grasp mesh with 3 limbs (no left hand) right hand on top. Stop at 9:08:27
+N,Gisela,Pcoq,10,M,7,13,2022,9:11:06,R,RH,H,R,0,"Grasp mesh with all 4 limbs, right hand on top"
+N,Gisela,Pcoq,10,M,7,14,2022,9:27:47,R,RH,H,R,0,Grasp mesh wall with right hand.
+N,Gisela,Pcoq,10,M,7,14,2022,9:33:33,R,RH,H,R,0,Grasp onto mesh with right hand
+N,Gisela,Pcoq,10,M,7,14,2022,9:34:48,R,RH,H,R,0,Grasp onto mesh with right hand
+N,Gisela,Pcoq,10,M,7,14,2022,9:58:14,R,RH,H,R,0,Grasp onto mesh wall with 3 limbs (no left hand) while resting.
+N,Gisela,Pcoq,10,M,7,14,2022,10:02:39,R,RH,H,R,0,Grasp onto mesh wall with 3 limbs (no left hand) while resting.
+N,Gisela,Pcoq,10,M,7,14,2022,10:03:34,R,RH,H,R,0,Grasp onto mesh wall with 3 limbs (no left hand) while resting.
+N,Gisela,Pcoq,10,M,7,14,2022,10:05:50,R,RH,H,R,0,"Grasp mesh wall with all 4 limbs, right hand on top"
+N,Gisela,Pcoq,10,M,7,13,2022,8:44:00,L,RH,H,R,0,"While moving, grasp onto mesh wall with all 4 limbs. Right hand on top. Stop at 8:44:12"
+N,Gisela,Pcoq,10,M,7,14,2022,9:23:08,L,RH,H,R,0,Grasp branch above with right hand
+N,Gisela,Pcoq,10,M,7,14,2022,9:31:28,L,LH,H,L,1,Grasp mesh with all 4 limbs while locomoting. Left hand on top.
+N,Gisela,Pcoq,10,M,7,14,2022,9:49:29,L,LH,H,L,1,"Leap and grasp pole with all 4 limbs, left hand top"
+N,Gisela,Pcoq,10,M,7,13,2022,8:19:46,L,LH,H,L,1,"Climb up pole. Holding pole with all 4 limbs, but left hand on top the whole time."
+N,Gisela,Pcoq,10,M,7,14,2022,9:50:45,L,LH,H,L,1,Leap to pole and grasp with all 4 limbs. Left hand on top.
+N,Gisela,Pcoq,10,M,7,13,2022,8:17:46,R,LH,H,L,1,Grasp pole with 3 limbs (no right hand) left hand on top.
+N,Gisela,Pcoq,10,M,7,13,2022,8:18:56,R,LH,H,L,1,"Grasp structure with all 4 limbs, right hand on top"
+N,Gisela,Pcoq,10,M,7,13,2022,8:28:18,R,LH,H,L,1,"Grasp onto pole with all 4 limbs, left hand on top. Stop at 8:24:29"
+N,Gisela,Pcoq,10,M,7,13,2022,8:32:44,R,LH,H,L,1,Grasp structure with 3 limbs (no right hand) left hand on top. Stop at 8:38:00
+N,Gisela,Pcoq,10,M,7,13,2022,9:04:32,R,LH,H,L,1,"Grasp branch with all 4 limbs, left hand on top"
+N,Gisela,Pcoq,10,M,7,14,2022,9:35:08,R,LH,H,L,1,Grasp onto mesh wall with left hand
+N,Gisela,Pcoq,10,M,7,14,2022,9:56:21,R,LH,H,L,1,Grasp onto mesh wall with just left hand
+N,Gisela,Pcoq,10,M,7,14,2022,9:57:15,R,LH,H,L,1,Grasp onto mesh wall with just left hand
+N,Gisela,Pcoq,10,M,7,14,2022,10:06:19,R,LH,H,L,1,Grasp onto mesh with 3 limbs (no right hand). Stop at 10:06:50
+N,Gisela,Pcoq,10,M,7,13,2022,8:00:40,R,LH,H,L,1,Grasp mesh with left hand resting
+N,Gisela,Pcoq,10,M,7,13,2022,8:02:44,R,LH,H,L,1,Grasp mesh with just left hand while resting and sitting on the floor. Stop at 8:03:09
+N,Gisela,Pcoq,10,M,7,13,2022,8:04:11,R,LH,H,L,1,"While resting, grasp mesh with 3 limbs (no right hand). Left hand on top. Stop at 8:04:42."
+N,Gisela,Pcoq,10,M,7,13,2022,8:10:54,R,LH,H,L,1,Grasp mesh with just left hand while sitting and resting.
+N,Gisela,Pcoq,10,M,7,14,2022,9:49:58,R,LH,H,L,1,"While resting, hold onto mesh wall with left hand and left foot. Stop at 9:50:18"
+N,Gisela,Pcoq,10,M,7,14,2022,10:04:05,R,LH,H,L,1,"While resting, hold onto mesh wall with 3 limbs (no right hand). Stop at 10:04:12"
+N,Gisela,Pcoq,10,M,7,14,2022,10:10:10,R,LH,H,L,1,Grasp onto branch with just left hand while resting.
+N,Gisela,Pcoq,10,M,7,13,2022,7:58:15,R,RH,H,R,0,Grasp mesh with just right hand while resting
+N,Gisela,Pcoq,10,M,7,14,2022,9:37:03,R,RH,H,R,0,"While resting, grasp onto beanch with right hand. Stop at 9:37:09"
+N,Gisela,Pcoq,10,M,7,14,2022,9:52:42,R,RH,H,R,0,Grasp onto mesh wall with 3 limbs (no left hand) while resting.
+N,Gisela,Pcoq,10,M,7,13,2022,8:01:01,R,RH,H,R,0,Grasp mesh with 4 limbs while resting. Right hand on top.
+N,Gisela,Pcoq,10,M,7,14,2022,9:29:33,SG,RH,H,R,0,Sniff and lick right hand
+X,Licinius,Lcat,29,M,6,22,2022,9:46:20,BP,LF,F,L,1,"Go upstairs, starting with left foot"
+X,Licinius,Lcat,29,M,6,22,2022,9:50:25,BP,LF,F,L,1,"Go downstairs, starting with left foot"
+X,Licinius,Lcat,29,M,7,5,2022,8:28:31,QP,RH,H,R,0,Right hand first (going down steps)
+X,Licinius,Lcat,29,M,7,5,2022,9:02:01,E,RH,H,R,0,Forage and eat with right hand
+X,Licinius,Lcat,29,M,7,5,2022,9:03:21,E,RH,H,R,0,Forage and eat with right hand
+X,Licinius,Lcat,29,M,7,5,2022,9:05:35,E,RH,H,R,0,Forage and eat with right hand
+X,Licinius,Lcat,29,M,7,5,2022,9:08:16,E,RH,H,R,0,Forage and eat with right hand
+X,Licinius,Lcat,29,M,6,29,2022,9:11:53,E,RH,H,R,0,Grasp branch with right hand while foraging.
+X,Licinius,Lcat,29,M,6,29,2022,9:13:24,E,RH,H,R,0,Grasp branch with right hand while foraging.
+X,Licinius,Lcat,29,M,6,29,2022,9:14:26,E,LH,H,L,1,Grasp branch with left hand to eat from
+X,Licinius,Lcat,29,M,6,29,2022,9:17:58,E,LH,H,L,1,Grasp branch with left hand on top and eat (grapevine)
+X,Licinius,Lcat,29,M,6,29,2022,9:18:54,E,LH,H,L,1,Grasp grapevine branch with left hand and eat.
+X,Licinius,Lcat,29,M,6,29,2022,8:43:42,E,RH,H,R,0,Grasp and eat maple leaf with right hand. Holding tree with 4 limbs total.
+X,Licinius,Lcat,29,M,6,29,2022,8:33:57,E,LH,H,L,1,Grasp and eat maple leaf with left hand. Holding tree with 4 limbs total.
+X,Licinius,Lcat,29,M,7,5,2022,9:04:31,E,LH,H,L,1,Forage and eat with left hand
+X,Licinius,Lcat,29,M,7,5,2022,8:38:48,E,LH,H,L,1,Eat with left hand
+X,Licinius,Lcat,29,M,7,5,2022,8:39:39,E,LH,H,L,1,Eat with left hand
+X,Licinius,Lcat,29,M,7,5,2022,8:55:05,E,LH,H,L,1,Eat unknown leaves with left hand
+X,Licinius,Lcat,29,M,6,22,2022,9:29:50,E,RH,H,R,0,Forage with right hand
+X,Licinius,Lcat,29,M,6,22,2022,9:33:45,E,RH,H,R,0,Forage with right hand
+X,Licinius,Lcat,29,M,7,5,2022,8:58:30,E,RH,H,R,0,Forage with right hand
+X,Licinius,Lcat,29,M,7,5,2022,9:01:40,E,RH,H,R,0,Forage with right hand
+X,Licinius,Lcat,29,M,6,29,2022,8:34:17,E,RH,H,R,0,Eat maple leaf with right hand. Holding tree with 4 limbs total.
+X,Licinius,Lcat,29,M,7,5,2022,8:38:04,E,RH,H,R,0,Eat with right hand
+X,Licinius,Lcat,29,M,7,5,2022,8:39:05,E,RH,H,R,0,Eat with right hand
+X,Licinius,Lcat,29,M,7,5,2022,8:39:52,E,RH,H,R,0,Eat with right hand
+X,Licinius,Lcat,29,M,7,5,2022,8:55:41,E,RH,H,R,0,Eat with right hand
+X,Licinius,Lcat,29,M,7,5,2022,8:56:08,E,RH,H,R,0,Eat from right hand
+X,Licinius,Lcat,29,M,7,5,2022,8:56:47,E,RH,H,R,0,Eat from right hand
+X,Licinius,Lcat,29,M,6,22,2022,9:33:10,E,LH,H,L,1,Forage with left hand
+X,Licinius,Lcat,29,M,6,22,2022,9:45:30,E,LH,H,L,1,Forage with left hand
+X,Licinius,Lcat,29,M,6,22,2022,9:47:44,E,LH,H,L,1,Forage with left hand
+X,Licinius,Lcat,29,M,7,5,2022,8:58:32,E,LH,H,L,1,Forage with left hand
+X,Licinius,Lcat,29,M,7,5,2022,8:36:58,E,LH,H,L,1,Forage and eat with left hand
+X,Licinius,Lcat,29,M,7,5,2022,8:57:43,E,LH,H,L,1,Forage and eat with left hand
+X,Licinius,Lcat,29,M,7,5,2022,8:58:13,E,LH,H,L,1,Forage and eat with left hand
+X,Licinius,Lcat,29,M,7,5,2022,8:59:24,E,LH,H,L,1,Forage and eat with left hand
+X,Licinius,Lcat,29,M,7,5,2022,8:37:35,E,RH,H,R,0,Forage and eat with right hand
+X,Licinius,Lcat,29,M,6,29,2022,8:38:18,R,RH,H,R,0,Grasp maple leaf with right hand. Holding tree with 4 limbs total.
+X,Licinius,Lcat,29,M,6,29,2022,9:01:51,R,RH,H,R,0,Grasp tree with right hand on top
+X,Licinius,Lcat,29,M,6,29,2022,9:07:42,L,LH,H,L,1,Grasp tree with left hand on top.
+X,Licinius,Lcat,29,M,6,29,2022,8:49:22,L,RH,H,R,0,Jump to other tree branch with right hand on top.
+X,Licinius,Lcat,29,M,6,29,2022,8:33:15,L,RH,H,R,0,Grasp branch with right hand on top
+X,Licinius,Lcat,29,M,6,29,2022,9:28:45,L,RH,H,R,0,Climb up tree with right hand on top.
+X,Licinius,Lcat,29,M,6,29,2022,8:48:47,L,LH,H,L,1,Locomote down tree with left hand on top
+X,Licinius,Lcat,29,M,6,29,2022,8:52:56,R,LH,H,L,1,Grasp tree with left hand on top
+X,Licinius,Lcat,29,M,6,22,2022,9:28:51,R,RH,H,R,0,Grasp branch with right hand on top
+X,Licinius,Lcat,29,M,6,22,2022,10:02:29,R,RH,H,R,0,Grasp branch with right hand on top
+X,Licinius,Lcat,29,M,6,29,2022,8:50:41,R,RH,H,R,0,Hold onto branch with right hand on top while resting. Holding tree with 4 limbs total.
+X,Licinius,Lcat,29,M,6,29,2022,9:23:47,R,RH,H,R,0,Rest while holding onto branch with all 4 limbs. Right hand on top.
+X,Licinius,Lcat,29,M,7,5,2022,8:45:42,R,RH,H,R,0,Right hand hold branch while sitting on the ground and resting. Stop at 8:47:15
+Maddie,Maddie,Emon,16,F,7,8,2022,8:50:31,QP,LF,F,L,1,"Walk quadrupedally, left foot first"
+Maddie,Maddie,Emon,16,F,6,28,2022,14:50:59,E,RH,H,R,0,Grab and eat chow with right hand
+Maddie,Maddie,Emon,16,F,6,28,2022,14:52:14,E,RH,H,R,0,Grasp and eat chow with right hand.
+Maddie,Maddie,Emon,16,F,6,28,2022,14:52:40,E,RH,H,R,0,Grasp and eat chow with right hand.
+Maddie,Maddie,Emon,16,F,6,28,2022,14:53:02,E,RH,H,R,0,Grasp and eat chow with right hand.
+Maddie,Maddie,Emon,16,F,6,29,2022,10:48:50,E,RH,H,R,0,Grasp and eat chow with right hand.
+Maddie,Maddie,Emon,16,F,6,28,2022,15:01:21,E,LH,H,L,1,Eat banana slice with left hand
+Maddie,Maddie,Emon,16,F,6,28,2022,14:51:19,E,RH,H,R,0,Eat chow out of right hand
+Maddie,Maddie,Emon,16,F,6,28,2022,15:20:00,E,RH,H,R,0,Eat pineapple with right hand
+Maddie,Maddie,Emon,16,F,6,28,2022,15:01:49,E,RH,H,R,0,Eat banana slice with right hand
+Maddie,Maddie,Emon,16,F,6,28,2022,15:08:07,E,RH,H,R,0,Eat banana slice with right hand
+Maddie,Maddie,Emon,16,F,6,28,2022,14:22:54,R,RH,H,R,0,Grasp branch with right hand on top.
+Maddie,Maddie,Emon,16,F,6,28,2022,14:25:04,R,RH,H,R,0,Grasp branch with right hand. Hold onto lower branch with other 3 limbs.
+Maddie,Maddie,Emon,16,F,6,28,2022,14:14:16,L,RH,H,R,0,Grasp cage wire with right hand on top
+Maddie,Maddie,Emon,16,F,6,28,2022,14:47:50,L,LH,H,L,1,"Grab ""door frame"" to indoor enclosure with left hand"
+Maddie,Maddie,Emon,16,F,6,28,2022,14:56:10,L,LH,H,L,1,Grasp branch with left hand
+Maddie,Maddie,Emon,16,F,7,8,2022,9:11:14,L,LH,H,L,1,Land on mesh wall with left hand on top then climb up
+Maddie,Maddie,Emon,16,F,6,28,2022,14:14:10,L,LH,H,L,1,Leap to branch with left hand on top.
+Maddie,Maddie,Emon,16,F,6,28,2022,14:15:18,L,RH,H,R,0,Grasp branch with right hand on top.
+Maddie,Maddie,Emon,16,F,7,8,2022,8:49:27,LA,LF,F,L,1,Land on branch left foot first
+Maddie,Maddie,Emon,16,F,7,8,2022,8:53:19,LA,LH,H,L,1,Land on wire mesh with left hand on top
+Maddie,Maddie,Emon,16,F,7,8,2022,9:18:24,LA,RH,H,R,0,Land on branch with right hand first
+Maddie,Maddie,Emon,16,F,7,8,2022,9:03:54,LA,LH,H,L,1,Land on mesh wall with left hand on top
+Maddie,Maddie,Emon,16,F,6,29,2022,10:45:33,QP,RH,H,R,0,"Walk on 4 legs, movinRight hand first."
+Maddie,Maddie,Emon,16,F,6,28,2022,14:19:07,QP,RH,H,R,0,Walk onto branch with right hand first.
+Maddie,Maddie,Emon,16,F,7,8,2022,9:26:50,R,RH,H,R,0,Grasp branch with right hand (no other limbs) while resting.
+Maddie,Maddie,Emon,16,F,7,8,2022,9:39:11,R,RH,H,R,0,"While resting, hold onto mesh wall with both hands and right hand on top."
+Maddie,Maddie,Emon,16,F,7,8,2022,9:22:26,R,RH,H,R,0,Hold onto mesh wall while resting with right hand on top. Holding with both hands and no feet.
+Maddie,Maddie,Emon,16,F,7,8,2022,9:46:19,R,LH,H,L,1,"While resting, hold onto mesh wall with left hand and no other limbs"
+Maddie,Maddie,Emon,16,F,6,29,2022,11:32:57,SG,LH,H,L,1,Self grooms by licking left hand. Stops at 11:33:12
+M,Randy,Lcat,16,M,7,7,2022,8:48:09,CL,RF,F,R,0,Cross legs with right foot on top of left foot. Stop at around 8:54
+M,Randy,Lcat,16,M,7,7,2022,8:59:09,CL,RF,F,R,0,Cross legs with right foot on top of left foot. Stop at around 9:10
+M,Randy,Lcat,16,M,6,27,2022,9:53:59,E,RH,H,R,0,"Randy grabs his poop with his right hand and licks it. He does this for about 5 minutes, always grabbing with his right hand."
+M,Randy,Lcat,16,M,6,27,2022,9:59:45,E,RH,H,R,0,"Forage for pinecone with right hand. Eats with both hands at first, then moves to just right hand."
+M,Randy,Lcat,16,M,6,23,2022,10:05:59,E,RH,H,R,0,Eat chow with right hand. Now locked in outdoor cage.
+M,Randy,Lcat,16,M,6,23,2022,10:07:43,E,RH,H,R,0,Eat chow with right hand.
+M,Randy,Lcat,16,M,6,23,2022,10:12:08,E,RH,H,R,0,Eat broccoli with right hand
+M,Randy,Lcat,16,M,6,23,2022,10:14:54,E,RH,H,R,0,Eat chow with right hand
+M,Randy,Lcat,16,M,6,23,2022,9:49:20,HC,RH,H,R,0,"Randy clasps hands, right hand is on top"
+M,Randy,Lcat,16,M,6,27,2022,9:32:44,L,LH,H,L,1,Grasp fence with left hand
+M,Randy,Lcat,16,M,7,7,2022,8:45:49,L,LH,H,L,1,Jump onto mesh wall before clinging up with left hand on top
+M,Randy,Lcat,16,M,6,27,2022,9:42:10,LA,LH,H,L,1,Land on camp stool with left hand first
+M,Randy,Lcat,16,M,6,27,2022,9:27:26,QP,LH,H,L,1,Walk on all 4's starting with left hand
+M,Randy,Lcat,16,M,6,27,2022,10:01:11,QP,LH,H,L,1,Walk on all 4's starting with left hand
+M,Randy,Lcat,16,M,6,27,2022,10:02:32,QP,LH,H,L,1,"Walk on all 4's starting with left hand/right foot. I realized at this point the the catta walk in a diagonal pattern, so the hand walks with the foot on the opposite site."
+M,Randy,Lcat,16,M,6,27,2022,9:44:38,SG,LH,H,L,1,Self grooms by licking spur on left hand.
+M,Randy,Lcat,16,M,6,27,2022,9:48:47,SG,LH,H,L,1,Lick spur on left hand
+M,Randy,Lcat,16,M,6,27,2022,9:46:03,SG,LH,H,L,1,Licking and chewing spur on left hand
+M,Randy,Lcat,16,M,6,23,2022,10:04:08,SG,RF,F,R,0,"Uses right foot to scratch right eat, lick right foot"
+M,Randy,Lcat,16,M,6,27,2022,9:53:07,SG,LH,H,L,1,Groom left hand with mouth
+P,Rico,Emon,5,M,6,28,2022,9:30:12,E,LH,H,L,1,Grasp silverberry branch with left hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:35:36,E,RH,H,R,0,Grasp silverberry branch with right hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:09:18,E,RH,H,R,0,Grasp bamboo with right hand. Hold tree with 3 other limbs
+P,Rico,Emon,5,M,6,28,2022,9:10:01,E,RH,H,R,0,Grasp bamboo with right hand. Hold tree with 3 other limbs
+P,Rico,Emon,5,M,6,28,2022,9:11:16,E,RH,H,R,0,Grasp bamboo with right hand. Hold tree with 3 other limbs
+P,Rico,Emon,5,M,6,28,2022,9:11:55,E,RH,H,R,0,Grasp silverberry leaf with right hand. Hold tree with 3 other limbs
+P,Rico,Emon,5,M,6,28,2022,9:12:28,E,RH,H,R,0,Grasp silverberry leaf with right hand. Hold tree with 3 other limbs. Then add left hand.
+P,Rico,Emon,5,M,6,28,2022,9:13:12,E,RH,H,R,0,Grasp silverberry leaf with right hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:13:52,E,RH,H,R,0,Grasp silverberry leaf with right hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:20:53,E,RH,H,R,0,Grasp silverberry with right hand
+P,Rico,Emon,5,M,6,28,2022,9:23:02,E,RH,H,R,0,Hold branch with 3 other limbs
+P,Rico,Emon,5,M,6,30,2022,9:20:14,E,RH,H,R,0,Forage oak leaves with right hand
+P,Rico,Emon,5,M,6,28,2022,9:14:48,E,RH,H,R,0,Grasp and eat silverberry branch with right hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:26:05,E,RH,H,R,0,Grasp silverberry branch with and eat with right hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:15:54,E,RH,H,R,0,Grasp and eat silverberry branch with right hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:17:50,E,RH,H,R,0,Grasp and eat silverberry branch with right hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:18:08,E,RH,H,R,0,Grasp and eat silverberry branch with right hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:18:20,E,RH,H,R,0,Grasp and eat silverberry branch with right hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,30,2022,10:09:18,E,RH,H,R,0,Forage and eat bamboo with right hand
+P,Rico,Emon,5,M,6,30,2022,10:09:42,E,RH,H,R,0,Forage and eat bamboo with right hand
+P,Rico,Emon,5,M,6,28,2022,9:19:51,E,LH,H,L,1,"Grasp silverberry with left hand, then hold with both hands."
+P,Rico,Emon,5,M,6,28,2022,9:20:12,E,LH,H,L,1,"Grasp silverberry with left hand, then hold with both hands."
+P,Rico,Emon,5,M,6,28,2022,9:23:58,E,LH,H,L,1,"Grasp branch with left hand, then add right hand. Hold tree with 3 other limbs."
+P,Rico,Emon,5,M,6,28,2022,9:24:44,E,LH,H,L,1,Grasp bamboo leaf with left hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:25:26,E,LH,H,L,1,Grasp silverberry branch with and eat with left hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:25:55,E,LH,H,L,1,Grasp silverberry branch with and eat with left hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,30,2022,9:21:37,E,LH,H,L,1,Forage and eat oak hands with left hand
+P,Rico,Emon,5,M,6,30,2022,9:22:34,E,LH,H,L,1,Forage and eat oak hands with left hand
+P,Rico,Emon,5,M,6,30,2022,9:38:13,E,LH,H,L,1,Forage and eat silverberry with left hand
+P,Rico,Emon,5,M,6,30,2022,10:13:37,E,LH,H,L,1,Forage and eat silverberry with left hand
+P,Rico,Emon,5,M,6,30,2022,10:15:04,E,LH,H,L,1,Forage and eat silverberry with left hand
+P,Rico,Emon,5,M,6,30,2022,9:26:53,E,RH,H,R,0,"Grasp oak twig with left hand, but did not eat"
+P,Rico,Emon,5,M,6,30,2022,9:33:34,E,LH,H,L,1,Forage and eat bamboo leaf with left hand
+P,Rico,Emon,5,M,6,30,2022,9:55:20,E,LH,H,L,1,Forage and eat bamboo leaf with left hand
+P,Rico,Emon,5,M,6,16,2022,11:15:19,E,RH,H,R,0,Rico picks up food from bowl and eats it out of his right hand
+P,Rico,Emon,5,M,6,16,2022,11:33:37,E,RH,H,R,0,Rico picks up food and eats it from his right hand
+P,Rico,Emon,5,M,6,16,2022,11:34:58,E,RH,H,R,0,Rico picks up food and eats it from his right hand
+P,Rico,Emon,5,M,6,16,2022,11:38:27,E,RH,H,R,0,Rico grabs food and eats it using his right hand
+P,Rico,Emon,5,M,6,16,2022,11:17:39,E,RH,H,R,0,Rico holds food (cucumber slice) in right hand and eats it from his right hand
+P,Rico,Emon,5,M,6,16,2022,11:23:00,E,LH,H,L,1,Rico eats chow from his left hand
+P,Rico,Emon,5,M,6,16,2022,11:24:32,E,LH,H,L,1,Rico eats chow from his left hand
+P,Rico,Emon,5,M,6,16,2022,11:28:21,E,LH,H,L,1,Rico eats diet from left hand
+P,Rico,Emon,5,M,6,16,2022,11:29:40,E,LH,H,L,1,Rico switches the food to his left hand and eats out of his left hand.
+P,Rico,Emon,5,M,6,16,2022,11:29:40,E,RH,H,R,0,Rico fishes around food bowl with right hand and picks up a piece of food.
+P,Rico,Emon,5,M,6,16,2022,11:34:23,E,LH,H,L,1,Rico picks up food and eats it with his left hand
+P,Rico,Emon,5,M,6,28,2022,9:08:21,E,RH,H,R,0,"Grasp bamboo leaf with tight hand, then switch to left hand. Holding onto tree with 3 limbs."
+P,Rico,Emon,5,M,6,30,2022,9:31:26,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,28,2022,9:15:16,E,LH,H,L,1,Grasp silverberry branch with left hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:16:58,E,LH,H,L,1,Grasp silverberry branch with left hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:17:33,E,LH,H,L,1,Grasp silverberry branch with left hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:18:48,E,LH,H,L,1,Grasp silverberry branch with left hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,30,2022,9:37:40,E,LH,H,L,1,Forage silverberry with left hand
+P,Rico,Emon,5,M,6,30,2022,9:39:44,E,LH,H,L,1,Forage silverberry with left hand
+P,Rico,Emon,5,M,6,30,2022,10:07:39,E,LH,H,L,1,Forage silverberry with left hand
+P,Rico,Emon,5,M,6,30,2022,10:11:57,E,LH,H,L,1,Forage silverberry with left hand
+P,Rico,Emon,5,M,6,28,2022,9:17:13,E,RH,H,R,0,Grasp silverberry branch with right hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:19:09,E,RH,H,R,0,Grasp silverberry branch with right hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,9:19:30,E,RH,H,R,0,Grasp silverberry branch with right hand. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,30,2022,9:38:31,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,9:39:02,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,9:39:24,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,10:07:12,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,10:10:13,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,10:11:27,E,RH,H,R,0,Forage bamboo with right hand
+P,Rico,Emon,5,M,6,30,2022,10:14:40,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,10:15:34,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,10:16:13,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,10:16:40,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,10:16:55,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,10:17:19,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,10:17:51,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,10:18:18,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,10:18:31,E,RH,H,R,0,Forage silverberry with right hand
+P,Rico,Emon,5,M,6,30,2022,9:29:41,E,LH,H,L,1,Forage silverberry with left hand
+P,Rico,Emon,5,M,6,30,2022,9:40:28,E,RH,H,R,0,Reach for silverberry with right hand
+P,Rico,Emon,5,M,6,28,2022,9:53:25,R,RH,H,R,0,Grasp pine tree branch with right hand on top. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,28,2022,8:59:00,E,LF,F,L,1,"Whole holding branch with 3 limbs, reaches out and grasps leaves with left hand."
+P,Rico,Emon,5,M,6,28,2022,8:59:57,E,LF,F,L,1,"Whole holding branch with 3 limbs, reaches out and grasps leaves with left hand."
+P,Rico,Emon,5,M,6,16,2022,10:43:07,L,LH,H,L,1,Rico leaps to a branch and grabs it with his left hand first
+P,Rico,Emon,5,M,6,16,2022,10:48:44,L,LH,H,L,1,Rico leaps and grabs the branch with his left hand first
+P,Rico,Emon,5,M,6,28,2022,9:07:43,L,LH,H,L,1,Leap and grasp branch with left hand on top
+P,Rico,Emon,5,M,6,16,2022,10:46:23,L,RH,H,R,0,Rico leaps to branch and grabs it with his left hand first
+P,Rico,Emon,5,M,6,16,2022,10:52:03,L,RH,H,R,0,Rico leaps and grabs the branch with his right hand first
+P,Rico,Emon,5,M,6,16,2022,10:56:00,L,RH,H,R,0,Rico leaps and grabs the branch with his right hand first
+P,Rico,Emon,5,M,6,16,2022,10:59:30,L,RH,H,R,0,Rico leaps and grabs the branch with his right hand first
+P,Rico,Emon,5,M,6,28,2022,9:14:14,L,RH,H,R,0,Leap to branch. Grasp with right hand on top.
+P,Rico,Emon,5,M,6,16,2022,10:52:23,L,LH,H,L,1,Rico grabs a branch with his left hand
+P,Rico,Emon,5,M,6,28,2022,9:03:44,L,RH,H,R,0,Leap and grasp branch with right hand on top
+P,Rico,Emon,5,M,6,28,2022,9:31:12,L,RH,H,R,0,Grasp bamboo tree with right hand on top. Hold tree with 3 other limbs.
+P,Rico,Emon,5,M,6,30,2022,9:35:57,L,LH,H,L,1,Leap with left hand on top of branch
+P,Rico,Emon,5,M,6,30,2022,10:12:59,L,RH,H,R,0,Leap to tree with right hand on top
+P,Rico,Emon,5,M,6,30,2022,9:36:48,L,RH,H,R,0,Leap with right hand on top of branch
+P,Rico,Emon,5,M,6,16,2022,11:08:38,L,RH,H,R,0,Rico leaps and grabs branch with his right hand first. He lept a little slower than usual so his branch grab was very clear this time!
+P,Rico,Emon,5,M,6,30,2022,9:28:53,L,LH,H,L,1,Leap to tree with left hand on top
+P,Rico,Emon,5,M,6,30,2022,10:06:32,L,LH,H,L,1,Leap three times with left hand on top
+P,Rico,Emon,5,M,6,30,2022,9:32:42,R,LH,H,L,1,Rest on tree. Cling to tree with left hand on top
+P,Rico,Emon,5,M,6,30,2022,10:12:09,R,LH,H,L,1,Rest on tree. Cling to tree with left hand on top
+P,Rico,Emon,5,M,6,30,2022,9:19:07,R,RH,H,R,0,Rest while clinging onto branch with right hand on top
+P,Rico,Emon,5,M,6,30,2022,9:33:04,R,RH,H,R,0,Rest on tree with right hand on top
+P,Rico,Emon,5,M,6,30,2022,9:43:44,R,RH,H,R,0,Rest on branch with right hand on top
+N,Rupert,Pcoq,12,M,7,6,2022,9:33:59,E,LH,H,L,1,Eat lettuce with left hand
+N,Rupert,Pcoq,12,M,7,6,2022,9:34:12,E,LH,H,L,1,Eat lettuce with left hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:00:16,E,LH,H,L,1,Eat lettuce from diet with left hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:01:14,E,LH,H,L,1,Eat chow from left hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:03:24,E,LH,H,L,1,Eat lettuce from diet with left hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:05:47,E,LH,H,L,1,Eat cucumber from diet with left hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:18:29,E,LH,H,L,1,Eat chow from left hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:22:39,E,LH,H,L,1,Eat kale from diet with left hand
+N,Rupert,Pcoq,12,M,7,6,2022,9:14:42,E,RH,H,R,0,Eat stick with right hand
+N,Rupert,Pcoq,12,M,7,6,2022,9:15:07,E,RH,H,R,0,Switch stick back to right hand and eat. Stop at 9:15:36
+N,Rupert,Pcoq,12,M,7,12,2022,9:00:42,E,RH,H,R,0,Eat chow from right hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:01:01,E,RH,H,R,0,Eat chow from right hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:01:27,E,RH,H,R,0,Eat chow from right hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:01:46,E,RH,H,R,0,Eat carrot from diet with right hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:03:50,E,RH,H,R,0,Eat carrot from diet with right hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:09:13,E,RH,H,R,0,"Eat kale from diet with right hand. WHile doing so, grasp onto mesh wall with left hand."
+N,Rupert,Pcoq,12,M,7,12,2022,9:10:15,E,RH,H,R,0,Eat chow from right hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:12:05,E,RH,H,R,0,Eat chow from right hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:13:19,E,RH,H,R,0,Eat chow from right hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:18:50,E,RH,H,R,0,Eat carrot from diet with right hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:21:34,E,RH,H,R,0,Eat broccoli from diet with right had
+N,Rupert,Pcoq,12,M,7,12,2022,9:29:21,E,RH,H,R,0,Eat chow from right hand
+N,Rupert,Pcoq,12,M,7,12,2022,9:41:17,E,RH,H,R,0,Eat stick from right hand.
+N,Rupert,Pcoq,12,M,7,12,2022,9:46:02,E,RH,H,R,0,Eat chow from right hand
+N,Rupert,Pcoq,12,M,7,6,2022,8:49:57,R,RH,H,R,0,"Grasp mesh wall with right hand. 3 limbs, left hand free. Stop at 8:50:23"
+N,Rupert,Pcoq,12,M,7,6,2022,8:52:46,R,RH,H,R,0,Grasp mesh with all 4 limbs. Right hand on top. Stop at 8:52:59
+N,Rupert,Pcoq,12,M,7,6,2022,9:04:06,R,RH,H,R,0,"Grasp branch with all 4 limbs, right hand top. Stop at 9:04:28"
+N,Rupert,Pcoq,12,M,7,6,2022,9:06:16,R,RH,H,R,0,Grasp branch with 3 limbs (left hand free). Stop at 9:06:28
+N,Rupert,Pcoq,12,M,7,6,2022,9:08:06,R,RH,H,R,0,"Grasp branch with all 4 limbs, right hand on top. Stop at 9:08:17"
+N,Rupert,Pcoq,12,M,7,6,2022,9:13:16,R,RH,H,R,0,"Grasp pole with 3 limbs, left hand free. Stop at 9:13:23"
+N,Rupert,Pcoq,12,M,7,6,2022,9:19:16,R,RH,H,R,0,"Grasp branch with all 4 limbs, with right hand on top. Stop at 9:19:20"
+N,Rupert,Pcoq,12,M,7,6,2022,9:33:30,R,RH,H,R,0,"Grasp branch with all 4 limbs, right hand on top. Stop at 9:33:45"
+N,Rupert,Pcoq,12,M,7,12,2022,8:45:54,R,RH,H,R,0,Grasp branch with right hand. Resting with othre limbs all on another branch.
+N,Rupert,Pcoq,12,M,7,12,2022,9:29:19,R,RH,H,R,0,Grasp onto branch with just right hand. Feet are resting on a lower branch.
+N,Rupert,Pcoq,12,M,7,12,2022,9:37:16,R,RH,H,R,0,Grasp branch with just right hand. Feet are resting on a lower branch.
+N,Rupert,Pcoq,12,M,7,6,2022,9:29:45,L,LF,F,L,1,Grasp side of hole to pass between enclosures with left foot on top. Grasping with 2 limbs (both feet). Stop at 9:30:08
+N,Rupert,Pcoq,12,M,7,12,2022,8:34:16,L,LH,H,L,1,Grasp branch from above with left hand while locomoting
+N,Rupert,Pcoq,12,M,7,12,2022,8:51:27,L,LH,H,L,1,"Grasp branch with all 4 limbs. Left hand on top. Climbing down, with left hand on top the whole time."
+N,Rupert,Pcoq,12,M,7,12,2022,9:03:22,L,LH,H,L,1,Leap to pole and grasp with all 4 limbs. Right hand on top.
+N,Rupert,Pcoq,12,M,7,6,2022,8:50:46,R,LH,H,L,1,"Grasp mesh wall with left hand. 3 limbs, right hand free. Stop at 8:51:18"
+N,Rupert,Pcoq,12,M,7,6,2022,9:03:30,R,LH,H,L,1,Grasp mesh with all 4 limbs. Left hand on top. Stop at 9:03:53
+N,Rupert,Pcoq,12,M,7,12,2022,9:05:02,R,LH,H,L,1,Grasp onto mesh with 3 limbs (no right hand). Left hand on top.
+N,Rupert,Pcoq,12,M,7,12,2022,9:27:09,R,LH,H,L,1,Grasp onto branch with just left hand. Feet are resting on a lower branch.
+N,Rupert,Pcoq,12,M,7,12,2022,9:37:38,R,LH,H,L,1,Grasp branch with just left hand. Feet are resting on a lower branch.
+N,Rupert,Pcoq,12,M,7,12,2022,10:11:13,R,LH,H,L,1,Grasp onto mesh with 3 limbs (no right hand). Left hand on top.
+N,Rupert,Pcoq,12,M,7,12,2022,8:25:59,R,LH,H,L,1,"Grasp mesh with all 4 limbs, left hand on top"
+N,Rupert,Pcoq,12,M,7,12,2022,8:46:27,R,LH,H,L,1,Grasp mesh with all 4 limbs. Left hand on top.
+N,Rupert,Pcoq,12,M,7,12,2022,8:47:07,R,LH,H,L,1,Grasp branch with all 4 limbs while resting. Left hand on top.
+N,Rupert,Pcoq,12,M,7,12,2022,8:47:54,R,LH,H,L,1,Grasp wall with 4 limbs (no right hand). Left hand is on top. Resting.
+N,Rupert,Pcoq,12,M,7,12,2022,8:48:17,R,LH,H,L,1,"While resting, grab branch with left hand."
+N,Rupert,Pcoq,12,M,7,12,2022,8:50:20,R,RH,H,R,0,"Grasp mesh wall with all 4 limbs, right hand on top"
+N,Rupert,Pcoq,12,M,7,12,2022,8:29:43,R,RH,H,R,0,Grasp mesh with only right hand while resting
+N,Rupert,Pcoq,12,M,7,12,2022,8:31:47,R,RH,H,R,0,Grasp door frame with only right hand while resting
+N,Rupert,Pcoq,12,M,7,12,2022,8:47:36,R,RH,H,R,0,Grasp onto wall with all 4 limbs. Left hand on top. Resting.
+N,Rupert,Pcoq,12,M,7,12,2022,8:48:35,R,RH,H,R,0,Grasp mesh with right hand and both feet while resting.
+N,Rupert,Pcoq,12,M,7,12,2022,8:53:08,R,RH,H,R,0,Resting while holding onto mesh with all 4 limbs. Right hand on top.
+N,Rupert,Pcoq,12,M,7,12,2022,9:15:53,R,RH,H,R,0,Grasp onto mesh with 3 limbs (no left hand). Right hand on top. Resting.
+N,Rupert,Pcoq,12,M,7,12,2022,8:33:15,R,RH,H,R,0,Hold onto branch with right hand while resting
+N,Rupert,Pcoq,12,M,7,12,2022,8:55:55,R,RH,H,R,0,"While resting, grasp onto mesh wall with just right hand."
+N,Rupert,Pcoq,12,M,7,12,2022,8:33:39,R,LH,H,L,1,Grasp mesh with left hand
+N,Rupert,Pcoq,12,M,7,12,2022,8:55:04,R,LH,H,L,1,Grasp onto pole with all 4 limbs. Left hand on top.
+N,Rupert,Pcoq,12,M,7,12,2022,8:34:38,R,LH,H,L,1,Hold onto branch with left hand and both feet
+N,Rupert,Pcoq,12,M,7,12,2022,8:39:54,R,RH,H,R,0,"Grasp mesh with all 4 hands, right hand on top"
+N,Rupert,Pcoq,12,M,7,12,2022,8:55:14,R,RH,H,R,0,Grasp onto pole with all 4 limbs. Right hand on top.
+N,Rupert,Pcoq,12,M,7,12,2022,8:56:29,R,LH,H,L,1,"While resting, grasp onto mesh with just left hand."
+N,Rupert,Pcoq,12,M,7,12,2022,8:50:59,R,LH,H,L,1,"While resting, grab mesh with just left hand"
+X,Sierra Mist,Lcat,14,F,6,29,2022,10:02:11,E,RH,H,R,0,Grasp and eat from silverberry branch with right hand.
+X,Sierra Mist,Lcat,14,F,6,29,2022,10:03:42,E,RH,H,R,0,Grasp silverberry branch with right hand on top and eat.
+X,Sierra Mist,Lcat,14,F,6,29,2022,9:59:24,E,LH,H,L,1,"Grasp branch with both hands, but left hand on top."
+X,Sierra Mist,Lcat,14,F,6,29,2022,10:01:18,E,LH,H,L,1,"Grasp and eat from silverberry branch with both hands, but left hand on top."
+X,Sierra Mist,Lcat,14,F,6,29,2022,10:03:54,E,LH,H,L,1,Grasp silverberry branch with left hand on top and eat. Steadying branch with right hand on bottom.
+X,Sierra Mist,Lcat,14,F,6,29,2022,9:39:00,E,RH,H,R,0,Grasp and eat grass with rigth hand
+X,Sierra Mist,Lcat,14,F,6,29,2022,9:39:18,E,RH,H,R,0,Grasp and eat grass with rigth hand
+X,Sierra Mist,Lcat,14,F,6,29,2022,10:01:49,E,LH,H,L,1,Grasp and eat from silverberry branch with left hand.
+N,Sierra Mist,Lcat,14,F,7,5,2022,10:18:44,E,LH,H,L,1,Eat unknown grass with left hand
+X,Sierra Mist,Lcat,14,F,6,22,2022,7:26:20,E,RH,H,R,0,Sierra Mist forages (locust plant). She is grabbing the plant with her right hand on top.
+X,Sierra Mist,Lcat,14,F,6,22,2022,8:12:50,E,RH,H,R,0,Forages with right hand
+X,Sierra Mist,Lcat,14,F,6,22,2022,8:16:43,E,RH,H,R,0,Forages with right hand
+X,Sierra Mist,Lcat,14,F,6,22,2022,8:18:45,E,RH,H,R,0,Forages with right hand
+X,Sierra Mist,Lcat,14,F,6,22,2022,7:27:36,E,RH,H,R,0,Eats locust with right hand
+X,Sierra Mist,Lcat,14,F,6,22,2022,8:05:09,E,RH,H,R,0,Eats unknown plant from right hand
+X,Sierra Mist,Lcat,14,F,6,22,2022,8:06:30,E,RH,H,R,0,Sierra eats unknown leaf from her right hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,10:21:28,E,RH,H,R,0,Eat chow from right hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,10:26:35,E,RH,H,R,0,Eat chow from left hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:34:33,E,LH,H,L,1,Forage and eat unknown grass with left hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:35:42,E,LH,H,L,1,Forage and eat unknown grass with right hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:36:35,E,LH,H,L,1,Forage and eat unknown grass with left hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:38:44,E,LH,H,L,1,Forage and eat unknown grass with left hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:43:58,E,LH,H,L,1,Forage and eat unknown grass with left hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:32:25,E,RH,H,R,0,Forage and eat unknown grass with right hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:36:06,E,RH,H,R,0,Forage and eat unknown grass with right hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:37:53,E,RH,H,R,0,Forage and eat unknown grass with right hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:40:35,E,RH,H,R,0,Forage and eat unknown grass with right hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:42:43,E,RH,H,R,0,Forage and eat unknown grass with right hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:43:11,E,RH,H,R,0,Forage and eat unknown grass with right hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:44:14,E,RH,H,R,0,Forage and eat unknown grass with right hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:44:22,E,RH,H,R,0,Forage and eat unknown grass with right hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,9:44:56,E,RH,H,R,0,Forage and eat unknown grass with right hand
+N,Sierra Mist,Lcat,14,F,7,5,2022,10:18:14,E,RH,H,R,0,Forage and eat unknown grass with right hand
+X,Sierra Mist,Lcat,14,F,6,29,2022,9:49:30,R,RH,H,R,0,Grasp branch with right hand. Sitting with 2 feet. Holding onto branch with 3 limbs total (all except left hand)
+X,Sierra Mist,Lcat,14,F,6,29,2022,10:06:05,R,RH,H,R,0,"Grasp mesh fence with both hands, but right hand above left hand."
+X,Sierra Mist,Lcat,14,F,6,22,2022,7:59:52,L,RH,H,R,0,Sierra goes to lower tree limb. She holds onto the tree limb with her right hand.
+X,Sierra Mist,Lcat,14,F,6,29,2022,9:59:46,L,RH,H,R,0,"Whole locomoting, grasp branch with right hand on top"
+X,Sierra Mist,Lcat,14,F,6,22,2022,8:07:59,LA,LF,F,L,1,Sierra lands on the ground with her left foot touching the ground first
+X,Sierra Mist,Lcat,14,F,6,29,2022,9:36:47,QP,RH,H,R,0,Moves on all 4's starting with right hand
+X,Sierra Mist,Lcat,14,F,6,22,2022,8:12:14,QP,RH,H,R,0,Walks on 4 legs. Right hand is first to move.
+M,Sophia,Lcat,17,F,6,21,2022,9:58:05,QP,LF,F,L,1,"Sophia locomotes quadrupedally, starting with her Left foot"
+M,Sophia,Lcat,17,F,6,21,2022,9:37:06,CL,RF,F,R,0,"Sophia crosses her legs, with her right foot on top"
+M,Sophia,Lcat,17,F,6,21,2022,9:57:25,CL,RF,F,R,0,"Sophia crosses her legs, with her right foot on top"
+M,Sophia,Lcat,17,F,6,21,2022,9:58:40,CL,RF,F,R,0,"Sophia crosses her legs, with her right foot on top"
+M,Sophia,Lcat,17,F,6,21,2022,10:08:02,CL,RF,F,R,0,"Sophia crosses her legs, with her right foot on top. She then re-crosses her legs, more obviously with right foot on top this time. She uncrosses them at 10:08:33"
+M,Sophia,Lcat,17,F,6,21,2022,10:09:15,CL,RF,F,R,0,"Sophia crosses her legs, with her right foot on top"
+M,Sophia,Lcat,17,F,6,21,2022,10:13:18,CL,RF,F,R,0,"Sophia crosses her legs, with her right foot on top"
+M,Sophia,Lcat,17,F,6,21,2022,10:15:17,CL,RF,F,R,0,"Sophia crosses her legs, with her right foot on top"
+M,Sophia,Lcat,17,F,6,27,2022,8:48:43,CL,RF,F,R,0,Cross legs with right foot on top
+M,Sophia,Lcat,17,F,6,27,2022,9:12:37,CL,RF,F,R,0,Cross legs with right foot on top
+M,Sophia,Lcat,17,F,6,30,2022,10:24:18,CL,RF,F,R,0,Cross legs with right foot on top. Stop at 10:25:48
+M,Sophia,Lcat,17,F,6,30,2022,10:35:29,CL,RF,F,R,0,Cross legs with right foot on top
+M,Sophia,Lcat,17,F,6,30,2022,10:36:57,E,LH,H,L,1,Get chow out of bowl with mouth. Take chow out of mouth with left hand and eat from left hand.
+M,Sophia,Lcat,17,F,6,30,2022,10:38:56,E,LH,H,L,1,Get chow out of bowl with mouth. Take chow out of mouth with left hand and eat from left hand.
+M,Sophia,Lcat,17,F,6,30,2022,10:41:32,E,LH,H,L,1,Get chow out of bowl with mouth. Take chow out of mouth with left hand and eat from left hand.
+M,Sophia,Lcat,17,F,6,30,2022,10:42:35,E,LH,H,L,1,Get chow out of bowl with mouth. Take chow out of mouth with left hand and eat from left hand.
+M,Sophia,Lcat,17,F,6,30,2022,10:47:30,E,LH,H,L,1,Get chow out of bowl with mouth. Take chow out of mouth with left hand and eat from left hand.
+M,Sophia,Lcat,17,F,6,30,2022,10:57:02,E,LH,H,L,1,Get chow out of bowl with mouth. Take chow out of mouth with left hand and eat from left hand.
+M,Sophia,Lcat,17,F,6,30,2022,11:01:59,E,LH,H,L,1,Get chow out of bowl with mouth. Take chow out of mouth with left hand and eat from left hand.
+M,Sophia,Lcat,17,F,6,27,2022,9:12:59,E,RH,H,R,0,Randy forage for pine needles with right hand
+M,Sophia,Lcat,17,F,6,27,2022,9:18:17,E,LH,H,L,1,Sophia forages with her left hand
+M,Sophia,Lcat,17,F,6,27,2022,8:27:35,E,LH,H,L,1,Sophia picks up a leaf and eats it from her left hand
+M,Sophia,Lcat,17,F,6,27,2022,8:44:01,L,LH,H,L,1,Grab branch in outdoor cage with right hand
+M,Sophia,Lcat,17,F,6,21,2022,9:25:12,L,RH,H,R,0,Sophia grasps structure starting with right hand
+M,Sophia,Lcat,17,F,6,21,2022,9:52:56,L,RH,H,R,0,Sophia climbs down starting with her right hand
+M,Sophia,Lcat,17,F,6,27,2022,8:36:21,L,RH,H,R,0,Sophia grabs top of outdoor wage with Rh to swing onto branch
+M,Sophia,Lcat,17,F,6,27,2022,9:09:00,LA,LF,F,L,1,Land on ground with left foot touching ground first
+M,Sophia,Lcat,17,F,6,27,2022,8:24:22,QP,RH,H,R,0,Sophia walks on 4 legs. Right hand is first to move.
+M,Sophia,Lcat,17,F,6,27,2022,8:28:58,QP,RH,H,R,0,Sophia turns around on pole. She starts walking with her right hand
+M,Sophia,Lcat,17,F,6,27,2022,8:37:04,QP,RH,H,R,0,"Starts walking for a short period, Rh first"
+M,Sophia,Lcat,17,F,6,27,2022,8:38:07,QP,RH,H,R,0,Sophia walks on 4 legs. Right hand is first to move.
+M,Sophia,Lcat,17,F,6,27,2022,8:46:59,QP,LF,F,L,1,"Walk on 4 legs, Rh first."
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:49:00,BP,LF,F,L,1,Walks bipedally with left foot in front
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:05:40,BP,LF,F,L,1,"Bipedal locomotion, left foot in front. Stop at 9:05:51"
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:07:08,BP,LF,F,L,1,"Bipedal locomotion, left foot in front. Stop at 9:07:54"
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:07:43,BP,LF,F,L,1,"Bipedal locomotion, left foot in front"
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:10:04,BP,LF,F,L,1,"Bipedal locomotion, left foot in front"
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:29:26,BP,LF,F,L,1,Walk bipedally with left foot in front
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:35:02,BP,LF,F,L,1,Walk bipedally with left foot in front. Stop at 9:35:11
+Furia,Thrax,Pcoq,10,M,7,6,2022,7:44:59,BP,LF,F,L,1,"Walking bipedally, with left foot in front"
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:17:15,BP,LF,F,L,1,Walking bipedally with left foot first. Stop at 8:17:35
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:18:06,BP,LF,F,L,1,Walking bipedally with left foor first. Stop at 8:18:10
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:20:13,BP,LF,F,L,1,Walking bipedally with left foot first.
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:33:31,BP,LF,F,L,1,stop at 8:33:32
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:17:20,BP,RF,F,R,0,Thrax moves bipedally with his right foot in front.
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:31:17,BP,RF,F,R,0,Moves bipedally with right foot in front. Stop at 9:21:46
+Furia,Thrax,Pcoq,10,M,7,1,2022,8:57:40,BP,RF,F,R,0,"Bipedal locomotion, left foot in front"
+Furia,Thrax,Pcoq,10,M,7,1,2022,8:59:11,BP,RF,F,R,0,"Bipedal locomotion, left foot in front"
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:21:53,BP,RF,F,R,0,Walk bipedally with right foot in front. Stop at 9:22:11
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:23:15,BP,RF,F,R,0,Walk bipedally with right foot in front. Stop at 9:23:22
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:27:04,BP,RF,F,R,0,Walk bipedally with right foot in front.
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:38:49,BP,RF,F,R,0,Walk bipedally with right foot in front. Stop at 9:38:54
+Furia,Thrax,Pcoq,10,M,7,6,2022,7:45:23,BP,RF,F,R,0,"Walking bipedally, with right foot in front"
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:39:36,BP,RF,F,R,0,Walk bipedally with right foot in front
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:26:22,CL,RF,F,R,0,Cross legs with right foot on top. Stop at 9:26:40
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:37:03,CL,RF,F,R,0,Cross legs with right foot on top. Stop at 9:38:43
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:12:39,E,RH,H,R,0,Forage and eat unknown leaf with right hand.
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:15:14,E,RH,H,R,0,Forage and eat unknown leaf with right hand.
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:16:36,E,RH,H,R,0,Forage and eat with right hand
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:18:13,E,RH,H,R,0,Forage and eat with right hand
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:10:14,E,LH,H,L,1,Forage and eat unknown leaf. Left hand on top right hand supporting botton of branch
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:12:49,E,LH,H,L,1,Forage and eat unknown leaf with left hand
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:13:25,E,LH,H,L,1,Forage and eat unknown leaf with left hand. Stop at 9:15:11
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:15:39,E,LH,H,L,1,Switch hands. Now forage and eat unknown leaf with left hand. Stop at 9:15:38
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:16:04,E,LH,H,L,1,Forage and eat with left hand
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:16:22,E,LH,H,L,1,Forage and eat with left hand
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:16:52,E,LH,H,L,1,Forage and eat with left hand
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:17:21,E,LH,H,L,1,Forage and eat with left hand
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:18:23,E,LH,H,L,1,Forage and eat with left hand
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:19:39,E,LH,H,L,1,Forage and eat with left hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:01:57,E,LH,H,L,1,Thrax eats chow from his left hand. He's locked in the CSB.
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:06:23,E,LH,H,L,1,Thrax eat diet out of left hand.
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:10:13,E,LH,H,L,1,Eat peanut out of left hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:19:50,E,LH,H,L,1,Eat lettuce from left hand.
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:20:40,E,LH,H,L,1,Eat chow from left hand. Stop at 11:21:02
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:21:22,E,LH,H,L,1,Eat diet out of left hand. Stop at 11:21:34
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:22:16,E,LH,H,L,1,Eats with left hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:23:37,E,LH,H,L,1,Eats out of left hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:24:10,E,LH,H,L,1,"Grabs food from bowl with left hand, then puts some in right hand."
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:26:47,E,LH,H,L,1,Eat lettuce from left hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:28:02,E,LH,H,L,1,Eat lettuce from left hand
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:33:29,E,LH,H,L,1,unknown leaves through fence. Stop at 8:33:54
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:35:28,E,RH,H,R,0,Forages unknown grass with rght hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:39:31,E,RH,H,R,0,Forages dog fennel with right hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:41:20,E,RH,H,R,0,Forages dog fennel with right hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:45:46,E,RH,H,R,0,Forages dog fennel with right hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:47:22,E,RH,H,R,0,Forages dog fennel with right hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:07:23,E,RH,H,R,0,Eat chow out of right hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:09:34,E,RH,H,R,0,Eat lettuce and chow from right hand.
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:20:36,E,RH,H,R,0,Eat from right hand.
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:22:40,E,RH,H,R,0,Eats with right hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:28:44,E,RH,H,R,0,Eat with right hand (diet)
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:13:15,E,RH,H,R,0,Eat unknown leaf with right hand
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:18:42,E,RH,H,R,0,Eating pine needles with right hand. Stop at 8:20:27
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:32:10,E,RH,H,R,0,unknown leaves
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:31:29,E,LH,H,L,1,Forages tulipopper plant with left hand. Stops at 11:34:44. Then starts again at 11:34:53
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:37:37,E,LH,H,L,1,Forages dog fennel with left hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:39:41,E,LH,H,L,1,Forages dog fennel with left hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:43:10,E,LH,H,L,1,Forages dog fennel with left hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:44:06,E,LH,H,L,1,Forage dog fennel with left hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:46:19,E,LH,H,L,1,Forage dog fennel with left hand
+Furia,Thrax,Pcoq,10,M,6,24,2022,11:48:53,E,LH,H,L,1,Forages at grass through fence with left hand
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:31:00,E,LH,H,L,1,unknown leaves
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:18:41,E,RH,H,R,0,Forage and eat with right hand on top. Stop at 9:19:14
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:19:28,E,RH,H,R,0,Forage and eat with right hand
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:20:03,E,RH,H,R,0,Forage and eat with right hand. Stop at 9:21:34
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:28:13,E,LH,H,L,1,Forage and eat muscovy grapevine with left hand.
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:29:37,E,LH,H,L,1,Forage and eat muscovy grapevine with left hand.
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:27:00,E,RH,H,R,0,Forage and eat muscovy grapevine with right hand. Stop at 8:28:01
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:43:59,R,RH,H,R,0,Switch to right hand is on top while clinging to pole.
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:31:45,R,LH,H,L,1,Grasp pole with left hand on top
+Furia,Thrax,Pcoq,10,M,7,6,2022,7:43:30,HC,LH,H,L,1,Hand clasp with left hand on top
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:13:48,HC,LH,H,L,1,Hand clasp with left hand on top. Stop at 8:14:21
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:16:13,HC,LH,H,L,1,Hand clasp with left hand on top.
+Furia,Thrax,Pcoq,10,M,7,6,2022,7:42:47,L,RH,H,R,0,Locomoting with right hand first. Crawling across ledge.
+Furia,Thrax,Pcoq,10,M,7,6,2022,7:43:46,LA,LF,F,L,1,"Jump from ledge to other ledge, lending with left foot first"
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:27:19,R,LH,H,L,1,Grasp fence mesh with left hand on top. Grasping with all 4 limbs
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:30:58,R,LH,H,L,1,Grasp wall with left hand on top (cling with all 4 limbs). Stop at 9:31:35
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:43:42,R,LH,H,L,1,Cling to pole with all 4 limbs. Left hand on top
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:38:30,R,LH,H,L,1,Grasp pole with all 4 limbs. Left hand top.
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:32:11,R,RH,H,R,0,Switch to grasp pole with right hand on top
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:41:05,R,RH,H,R,0,Grasp pole with right hand on top(cling with all 4 limbs) stop at 9:43:15
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:50:23,R,RH,H,R,0,Cling to pole with all 4 limbs. Right hand on top. Stop at 9:50:41
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:02:17,R,LH,H,L,1,Rest while grasping fence mesh with left hand. Sitting on ground
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:28:21,R,LH,H,L,1,Grasp pole with left hand while sitting
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:29:10,R,LH,H,L,1,Switch to grasp pole with left hand while sitting. Stop at 9:29:29
+Furia,Thrax,Pcoq,10,M,7,1,2022,8:54:53,R,RH,H,R,0,Rest while grasping pole with right hand
+Furia,Thrax,Pcoq,10,M,7,1,2022,9:28:59,R,RH,H,R,0,Switch to grasp pole with right hand while sitting.
+Furia,Thrax,Pcoq,10,M,7,6,2022,7:47:05,R,RH,H,R,0,"While resting, grasp onto branch with all 4 limbs, right hand on top"
+Furia,Thrax,Pcoq,10,M,7,6,2022,7:48:06,R,RH,H,R,0,"While resting, grasp onto branch with 3 limbs (left hand not grasping) with right hand on top. Stop at 7:49:04"
+Furia,Thrax,Pcoq,10,M,7,6,2022,7:51:16,R,RH,H,R,0,Grasp branch with resting with all 4 limbs. Right hand on top.
+Furia,Thrax,Pcoq,10,M,7,6,2022,8:14:34,R,RH,H,R,0,Sit on ledge while resting. Hold onto pole with just right hand
+Furia,Thrax,Pcoq,10,M,7,6,2022,7:46:39,R,RH,H,R,0,"While resting, grasp onto branch with all 4 limbs, right hand on top"
