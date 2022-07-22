@@ -13,7 +13,124 @@ library(dplyr)
 library(ggplot2)
 ```
 
-Upload clean data (it was a nightmare of cleaning this data in R and Excel and took many terrible hours, of which I do not wish to relive)
+
+**Here's what I did to clean the data:**
+
+```{r}
+L_PreClean <- read.csv("~/Documents/GitHub/Lefty_Lemurs/LeftyLemurs_Original.csv")
+```
+
+rename long column names to simpler ones
+```{r}
+L_PreClean <- rename(L_PreClean, Troop = Troop.............A..B..C..D...., Time = Time..H.M.S., Note = Focal.sample.note......................................................................................................................................................please.include.as.much.detail.as.possible...If.a.note.is.about.a.grooming.bout..for.example..include.stop.time.in.the.same.cell.)
+```
+
+remove commas in the category column
+```{r}
+L_PreClean$Category <- str_replace(L_PreClean$Category, ",", "")
+```
+Why on earth did it make it into a value instead of a new data frame???
+I guess it doesn't matter because it still works...
+
+
+Sometimes I wrote behaviors in all caps, and sometimes I didn't. I'm just going to put all of them in all caps because it's easier.
+```{r}
+L_PreClean$Category = toupper(L_PreClean$Category)
+```
+
+
+I have some data where I didn't actually record the limb used. Why did I do that? I'm going to delete the rows where I forgot to list the limb.
+
+Only keep rows in categories that don't contain RH, LH, RF, and/or LF
+```{r}
+L_HFdata <-
+  L_PreClean %>%
+  filter(str_detect(Category, "RH|RF|LH|LF"))
+```
+Squeaky clean 🥰
+
+Now I want to create a separate data frame that only contains behaviors from my ethogram:
+```{r}
+# do not run 
+# lefty_justEthogram <-
+# L %>%  select(Category) %>%
+# filter(str_detect(Category, "BP|QP|L|AG|SG|F|E|CL|HC|R|G|"))
+```
+Why didn't it work 😰
+
+
+*This did not work*
+Would it be possible to split the "Category" column into 2 columns? 1 that says "Task" and another that says "Limb"?
+
+"Limb" would have LH/RH/LF/RH and "Task" would have the other stuff
+
+I think if I duplicate the column and rename it and then eliminate the limbs from "Task" and keep only the limbs in "Limbs" it might work. 
+
+Then I can rename the tasks to "Eating/Grooming/Locomotion/etc.
+
+Duplicating "Category" and calling the new one "Limb"
+```{r}
+# do not run: L_HFdata$Limb <- L_PreClean$Category
+# do not run: L_PreClean2 <- L_PreClean %>% relocate (Limb, .before = Note)
+```
+
+*This did not work*
+
+Replacing limb with nothing
+```{r}
+# do not run: lefty_split <- L_PreClean2$Category <- str_replace(L_PreClean$Limb, "BP|QP|L|AG|SG|F|E|CL|HC|R|G|", "")
+
+# do not run: lefty_fullsplit <- L_PreClean2$Limb <- str_replace(L_PreClean$Category, "LF|LH|RF|RH|", "")
+```
+
+Categories kept limbs because they include an R (like rest) or L (like locomotion) 😭
+I think limb section stayed the same? I think it kept all the columns that contained the limbs, which was all of them ofc. I might be running the wrong code.
+
+Okay I'm going to use find and replace in Excel to fix it because R doesn't know how to do anything apparently and I literally want to cry rn
+
+Wait wtf why does it say 30,000+ rows columns 😳😭
+
+
+okay I've spent 4 hours trying to get it to work and tbh this is a waste of time so I'm just going to export the behavior data as a CSV and finish cleaning it in Google Sheets 😭
+---
+
+Writing as CSV bc my attempts at making limb column completely failed after working on it for 2 days
+```{r}
+# write_csv(L_PreClean,"Lefty_Lemurs.csv")
+```
+
+---
+
+**Here's what I did in Google Sheets with the CSV file**
+(I really wanted to do it in R but I could not figure it out and wasted hours and hours)
+
+- Deleted rows that didn't contain behaviors from my ethogram
+- Copied "Category" into 2 columns
+- In old Category column, deleted limb data
+- In new "Limb" data, kept only limb data (not behavior)
+- Deleted rows that had question marks in data
+- Deleted data where category was "Other"
+- Deleted data that had rows with both hands
+- Merged "F" and "E" into one category "E"
+- Looked through notes to change category when it was just "G". Most got changed to L, some got changed to R, a few got deleted
+- Added new column for H/F to say whether limb was hand or foot
+- Added new column for side to say whether limb was left or right
+
+New categories
+- E (eating/foraging)
+- R (resting) (lemur is still)
+- L (locomotion) (active motion like leaping, climbing, or jumping)
+- CL (cross legs)
+- HC (hand clasp)
+- BP (bipedal walking)
+- QP (quadrupedal walking)
+- LA (land)
+- SG (self grooming)
+- AG (allo-grooming)
+
+
+***Upload clean data*** (it was a nightmare of cleaning this data in R and Excel and took many terrible hours, of which I do not wish to relive)
+
 ```{r}
 L <- read.csv("~/Documents/GitHub/Lefty_Lemurs/LeftyLemurs_Clean.csv")
 ```
@@ -327,11 +444,7 @@ ggplot (l_foodGrasps, aes(x= Side)) +
 Okay there isn't much data for Sophia so it could just be "noise" for her... But Thrax has a lot of data
 
 But is all of this actually statistically significant 👀
-```{r}
-mean(l_foodGrasps$Side_Num)
-```
-does this mean 39.3% of grasps were with left hand?
-idk
+Don't know
 
 ```{r}
 ggplot (l_noLA, aes(x= Category)) +
@@ -416,13 +529,13 @@ binom.test(218, 305, p = .75, alternative = "two.sided")
 Trying to do chi-squared test and contigency coefficients (did not work)
 ```{r}
 # tbl_handGrasps <- as.data.frame(l_noLA) %>% 
-  group_by(Side, Sex) %>% 
-  summarize(qty = sum(Freq)) %>% 
-  ungroup() %>% 
-  spread(key = Sex, value = qty)
+  # group_by(Side, Sex) %>% 
+  # summarize(qty = sum(Freq)) %>% 
+  # ungroup() %>% 
+ #  spread(key = Sex, value = qty)
 
 # mat_handGrasps <- as.matrix(tbl_handGrasps[-1])
-rownames(mat_handGrasps) <- levels(tbl_handGrasps$Side)
+# rownames(mat_handGrasps) <- levels(tbl_handGrasps$Side)
 
 # chisq.test(mat_handGrasps)
 ```
