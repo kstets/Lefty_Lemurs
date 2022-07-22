@@ -15,7 +15,7 @@ library(ggplot2)
 
 Upload clean data (it was a nightmare of cleaning this data in R and Excel and took many terrible hours, of which I do not wish to relive)
 ```{r}
-L <- read.csv("~/Desktop/LeftyLemurs_Clean.csv")
+L <- read.csv("~/Documents/GitHub/Lefty_Lemurs/LeftyLemurs_Clean.csv")
 ```
 
 
