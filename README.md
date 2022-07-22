@@ -4,4 +4,4 @@ This repository contains the datasets and data analysis for my research project 
 
 I uploaded both my original and clean dataset, as well as my data analysis file.
 
-Feel free to look around!
+Feel free to look around :-)
