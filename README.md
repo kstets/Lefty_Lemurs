@@ -4,6 +4,6 @@ This repository contains the datasets and data analysis for my research project 
 
 I uploaded both my original and clean dataset, as well as my data analysis file.
 
-If you click on the "Wiki" tab, you can see the behind-the-scenes of my study, and see pictures of the lemurs!
+If you click on the "Wiki" tab on the GitHub page, you can see the behind-the-scenes of my study, and see pictures of the lemurs!
 
 Feel free to look around :-)
