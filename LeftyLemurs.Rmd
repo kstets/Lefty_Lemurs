@@ -227,7 +227,7 @@ Sifakas have higher left hand use than the other 2 species. Sifakas overall seem
 
 What about by sex
 ```{r}
-ggplot (L, aes(x= reorder (Limb, Limb, table ))) +
+ggplot (L, aes(x = reorder (Limb, Limb, table ))) +
   geom_bar(color = "black", fill = "#1D6363") +
   theme_classic() +
   xlab("Limb") +
