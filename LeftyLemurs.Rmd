@@ -603,5 +603,7 @@ Wow that it was too complicated. Why did I dare make this monstrosity?
 
 Okay, the landing and foot use data is fun and all, but the hand grasps it what I actually need to look at. I'm going to make that into a .CSV and analyze the data in JMP
 ```{r}
-write_csv (l_grasps, "HandGrasps.csv")
+# write_csv (l_grasps, "HandGrasps.csv")
+
+summary(l_grasps)
 ```
