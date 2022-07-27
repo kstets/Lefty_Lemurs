@@ -1,8 +1,10 @@
 ---
 title: "LeftyLemursAnalysis"
-author: "K.W. Stetson"
+author: "Stetson"
 date: "`r Sys.Date()`"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 Loading library
@@ -52,7 +54,7 @@ L_HFdata <-
   L_PreClean %>%
   filter(str_detect(Category, "RH|RF|LH|LF"))
 ```
-Squeaky clean 🥰
+Squeaky clean
 
 Now I want to create a separate data frame that only contains behaviors from my ethogram:
 ```{r}
@@ -61,7 +63,7 @@ Now I want to create a separate data frame that only contains behaviors from my 
 # L %>%  select(Category) %>%
 # filter(str_detect(Category, "BP|QP|L|AG|SG|F|E|CL|HC|R|G|"))
 ```
-Why didn't it work 😰
+Why didn't it work
 
 
 *This did not work*
@@ -88,15 +90,15 @@ Replacing limb with nothing
 # do not run: lefty_fullsplit <- L_PreClean2$Limb <- str_replace(L_PreClean$Category, "LF|LH|RF|RH|", "")
 ```
 
-Categories kept limbs because they include an R (like rest) or L (like locomotion) 😭
+Categories kept limbs because they include an R (like rest) or L (like locomotion)
 I think limb section stayed the same? I think it kept all the columns that contained the limbs, which was all of them ofc. I might be running the wrong code.
 
 Okay I'm going to use find and replace in Excel to fix it because R doesn't know how to do anything apparently and I literally want to cry rn
 
-Wait wtf why does it say 30,000+ rows columns 😳😭
+Wait wtf why does it say 30,000+ rows columns
 
 
-okay I've spent 4 hours trying to get it to work and tbh this is a waste of time so I'm just going to export the behavior data as a CSV and finish cleaning it in Google Sheets 😭
+okay I've spent 4 hours trying to get it to work and tbh this is a waste of time so I'm just going to export the behavior data as a CSV and finish cleaning it in Google Sheets
 ---
 
 Writing as CSV bc my attempts at making limb column completely failed after working on it for 2 days
@@ -162,7 +164,7 @@ Let's look at how many total instances of each limb use there was
 ```{r}
 table(L$Limb)
 ```
-Omg 🙊
+Omg
 
 Left Hand: 225
 Right Hand: 318
@@ -428,7 +430,7 @@ ggplot (l_foodGrasps, aes(x= Side)) +
 ```
 Okay there isn't much data for Sophia so it could just be "noise" for her... But Thrax has a lot of data
 
-But is all of this actually statistically significant 👀
+But is all of this actually statistically significant
 Don't know
 
 ```{r}
