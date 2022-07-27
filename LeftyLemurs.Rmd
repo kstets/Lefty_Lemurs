@@ -16,8 +16,13 @@ library(ggplot2)
 
 **Here's what I did to clean the data:**
 
+Importing dataset
 ```{r}
 L_PreClean <- read.csv("~/Documents/GitHub/Lefty_Lemurs/LeftyLemurs_Original.csv")
+```
+
+```{r}
+summary(L_PreClean)
 ```
 
 rename long column names to simpler ones
@@ -175,7 +180,6 @@ It looks like lemurs used their right hands a lot more than they used their left
   ggtitle("Total Limb Use Across Lemurs") +
   coord_flip()
 ```
-
 Yep, there definitely appears to be a hand/foot preference
 
 
@@ -221,7 +225,6 @@ ggplot (L, aes(x= Side)) +
   ggtitle("Limb Use Between Lemur Species") +
   facet_wrap (~ Species,)
 ```
-
 👀
 Sifakas have higher left hand use than the other 2 species. Sifakas overall seem more ambidextrous. However, this could be due to them foraging more (maybe all lemurs forage more with their left hands or something idk). Therefore I should separate it out by eating behaviors.
 
@@ -236,6 +239,8 @@ ggplot (L, aes(x = reorder (Limb, Limb, table ))) +
   coord_flip() +
   facet_wrap (~ Sex, scales = "free")
 ```
+
+This is the same thing but just divided by left and right side (left hand and left foot, etc. are in the same category)
 ```{r}
 ggplot (L, aes(x= reorder (Side, Side, table ))) +
   geom_bar(color = "black", fill = "#1D6363") +
@@ -246,7 +251,6 @@ ggplot (L, aes(x= reorder (Side, Side, table ))) +
   coord_flip() +
   facet_wrap (~ Sex, scales = "free")
 ```
-
 Definitely more right hand than left HAND use for both males and females. Not sure about foot use, but I didn't get much foot use data to begin with. Is there a way to exclude foot use?
 
 Males might me a little less lateralized than females? Left hand use is also (slightly) higher in males like I thought it would be!
@@ -265,25 +269,6 @@ ggplot (L, aes(x= reorder (Category, Category, table ))) +
 Everyone eats a lot
 
 ---
-
-I need to figure out how to convert it from counts to percentages.
-
-Could I put hand use as a percent?
-
-Like one lemur uses left hand 35% of the time? And do that as a bar graph?
-
----
-~Hex codes for colors~
-Red: #C84E00
-Orange: #E89923
-Yellow: #FFD960
-Light Green: #A1B70D
-Turquoise: #339898
-Teal: #1D6363
-Medium Blue: #005587
-Light Blue: #0577B1
-Purple: #993399
-
 
 Some calculations
 ```{r}
@@ -366,7 +351,7 @@ ggplot (l_noLA, aes(x= Side)) +
   ggtitle("Hand Use Between Behaviors") +
   facet_wrap (~ Category, scales = "free")
 ```
-So it looks like lemurs mostly ue their right hand for everything except for grooming! Interesting
+So it looks like lemurs mostly use their right hand for everything except for grooming! Interesting
 
 
 Now I'm going to filter out the grooming data so it's all grasping
@@ -574,7 +559,7 @@ ggplot (l_feet, aes(x= Limb)) +
   theme_classic() +
   xlab("Limb") +
   ylab("# of Times Using Each Limb") +
-  ggtitle("Limb Use Between Individuals") +
+  ggtitle("Foot Use Between Individuals") +
   facet_wrap (~ Focal)
 ```
 I don't really see any overall patterns here. It looks like Furia leads with her right foor more than left and Thrax leads a little more with his left foot than right. 
@@ -616,5 +601,7 @@ ggplot (l_noLA, aes(x= Side, fill = interaction(Category, Side))) +
 ```
 Wow that it was too complicated. Why did I dare make this monstrosity?
 
-
-
+Okay, the landing and foot use data is fun and all, but the hand grasps it what I actually need to look at. I'm going to make that into a .CSV and analyze the data in JMP
+```{r}
+write_csv (l_grasps, "HandGrasps.csv")
+```
