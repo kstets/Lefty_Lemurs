@@ -609,3 +609,36 @@ Okay, the landing and foot use data is fun and all, but the hand grasps it what 
 
 summary(l_grasps)
 ```
+
+Testing significance tests:
+```{r}
+# species:
+table(l_grasps$Side, l_grasps$Species)
+chisq.test(table(l_grasps$Side, l_grasps$Species))
+# X-squared = 9.2063, df = 2, p-value = 0.01002
+# species is significant
+
+# sex:
+table(l_grasps$Side, l_grasps$Sex)
+chisq.test(table(l_grasps$Side, l_grasps$Sex))
+# X-squared = 0.46415, df = 1, p-value = 0.4957
+# sex is not significant
+
+# focal:
+table(l_grasps$Side, l_grasps$Focal)
+chisq.test(table(l_grasps$Side, l_grasps$Focal))
+# X-squared = 23.257, df = 11, p-value = 0.01626
+# focal individual is significant
+
+# category:
+table(l_grasps$Side, l_grasps$Category)
+chisq.test(table(l_grasps$Side, l_grasps$Category))
+# X-squared = 1.3451, df = 2, p-value = 0.5104
+# category of behavior is not significant
+
+# age:
+table(l_grasps$Side, l_grasps$Age)
+chisq.test(table(l_grasps$Side, l_grasps$Age))
+# X-squared = 20.193, df = 6, p-value = 0.002559
+# age is significant? it was not when I ran the same test in JMP though
+```
