@@ -1,13 +1,7 @@
 ---
-title: "LeftyLemursAnalysis"
-author: "Stetson"
-date: "`r Sys.Date()`"
-output:
-  html_document: default
-  pdf_document: default
-editor_options: 
-  markdown: 
-    wrap: 72
+title: "Lefty Lemurs"
+format: html
+editor: visual
 ---
 
 Loading library
@@ -43,18 +37,15 @@ remove commas in the category column
 L_PreClean$Category <- str_replace(L_PreClean$Category, ",", "")
 ```
 
-Why on earth did it make it into a value instead of a new data frame???
-I guess it doesn't matter because it still works...
+Why on earth did it make it into a value instead of a new data frame??? I guess it doesn't matter because it still works...
 
-Sometimes I wrote behaviors in all caps, and sometimes I didn't. I'm
-just going to put all of them in all caps because it's easier.
+Sometimes I wrote behaviors in all caps, and sometimes I didn't. I'm just going to put all of them in all caps because it's easier.
 
 ```{r}
 L_PreClean$Category = toupper(L_PreClean$Category)
 ```
 
-I have some data where I didn't actually record the limb used. Why did I
-do that? I'm going to delete the rows where I forgot to list the limb.
+I have some data where I didn't actually record the limb used. Why did I do that? I'm going to delete the rows where I forgot to list the limb.
 
 Only keep rows in categories that don't contain RH, LH, RF, and/or LF
 
@@ -66,8 +57,7 @@ L_HFdata <-
 
 Squeaky clean
 
-Now I want to create a separate data frame that only contains behaviors
-from my ethogram:
+Now I want to create a separate data frame that only contains behaviors from my ethogram:
 
 ```{r}
 # do not run 
@@ -78,13 +68,11 @@ from my ethogram:
 
 Why didn't it work
 
-*This did not work* Would it be possible to split the "Category" column
-into 2 columns? 1 that says "Task" and another that says "Limb"?
+*This did not work* Would it be possible to split the "Category" column into 2 columns? 1 that says "Task" and another that says "Limb"?
 
 "Limb" would have LH/RH/LF/RH and "Task" would have the other stuff
 
-I think if I duplicate the column and rename it and then eliminate the
-limbs from "Task" and keep only the limbs in "Limbs" it might work.
+I think if I duplicate the column and rename it and then eliminate the limbs from "Task" and keep only the limbs in "Limbs" it might work.
 
 Then I can rename the tasks to "Eating/Grooming/Locomotion/etc.
 
@@ -105,21 +93,15 @@ Replacing limb with nothing
 # do not run: lefty_fullsplit <- L_PreClean2$Limb <- str_replace(L_PreClean$Category, "LF|LH|RF|RH|", "")
 ```
 
-Categories kept limbs because they include an R (like rest) or L (like
-locomotion) I think limb section stayed the same? I think it kept all
-the columns that contained the limbs, which was all of them ofc. I might
-be running the wrong code.
+Categories kept limbs because they include an R (like rest) or L (like locomotion) I think limb section stayed the same? I think it kept all the columns that contained the limbs, which was all of them ofc. I might be running the wrong code.
 
-Okay I'm going to use find and replace in Excel to fix it because R
-doesn't know how to do anything apparently and I literally want to cry
-rn
+Okay I'm going to use find and replace in Excel to fix it because R doesn't know how to do anything apparently and I literally want to cry rn
 
 Wait wtf why does it say 30,000+ rows columns
 
 ## okay I've spent 4 hours trying to get it to work and tbh this is a waste of time so I'm just going to export the behavior data as a CSV and finish cleaning it in Google Sheets
 
-Writing as CSV bc my attempts at making limb column completely failed
-after working on it for 2 days
+Writing as CSV bc my attempts at making limb column completely failed after working on it for 2 days
 
 ```{r}
 # write_csv(L_PreClean,"Lefty_Lemurs.csv")
@@ -127,9 +109,7 @@ after working on it for 2 days
 
 ------------------------------------------------------------------------
 
-**Here's what I did in Google Sheets with the CSV file** (I really
-wanted to do it in R but I could not figure it out and wasted hours and
-hours)
+**Here's what I did in Google Sheets with the CSV file** (I really wanted to do it in R but I could not figure it out and wasted hours and hours)
 
 -   Deleted rows that didn't contain behaviors from my ethogram
 -   Copied "Category" into 2 columns
@@ -139,19 +119,13 @@ hours)
 -   Deleted data where category was "Other"
 -   Deleted data that had rows with both hands
 -   Merged "F" and "E" into one category "E"
--   Looked through notes to change category when it was just "G". Most
-    got changed to L, some got changed to R, a few got deleted
+-   Looked through notes to change category when it was just "G". Most got changed to L, some got changed to R, a few got deleted
 -   Added new column for H/F to say whether limb was hand or foot
 -   Added new column for side to say whether limb was left or right
 
-New categories - E (eating/foraging) - R (resting) (lemur is still) - L
-(locomotion) (active motion like leaping, climbing, or jumping) - CL
-(cross legs) - HC (hand clasp) - BP (bipedal walking) - QP (quadrupedal
-walking) - LA (land) - SG (self grooming) - AG (allo-grooming)
+New categories - E (eating/foraging) - R (resting) (lemur is still) - L (locomotion) (active motion like leaping, climbing, or jumping) - CL (cross legs) - HC (hand clasp) - BP (bipedal walking) - QP (quadrupedal walking) - LA (land) - SG (self grooming) - AG (allo-grooming)
 
-***Upload clean data*** (it was a nightmare of cleaning this data in R
-and Excel and took many terrible hours, of which I do not wish to
-relive)
+***Upload clean data*** (it was a nightmare of cleaning this data in R and Excel and took many terrible hours, of which I do not wish to relive)
 
 ```{r}
 L <- read.csv("~/Documents/GitHub/Lefty_Lemurs/LeftyLemurs_Clean.csv")
@@ -159,9 +133,7 @@ L <- read.csv("~/Documents/GitHub/Lefty_Lemurs/LeftyLemurs_Clean.csv")
 
 **Analysis**
 
-\~Hex codes for colors (to use in graphs)\~ Red: #C84E00 Orange: #E89923
-Yellow: #FFD960 Light Green: #A1B70D Turquoise: #339898 Teal: #1D6363
-Medium Blue: #005587 Light Blue: #0577B1 Purple: #993399
+\~Hex codes for colors (to use in graphs)\~ Red: #C84E00 Orange: #E89923 Yellow: #FFD960 Light Green: #A1B70D Turquoise: #339898 Teal: #1D6363 Medium Blue: #005587 Light Blue: #0577B1 Purple: #993399
 
 ```{r}
 head(L)
@@ -177,8 +149,7 @@ Omg
 
 Left Hand: 225 Right Hand: 318 Left Foot: 32 Right Foot: 47
 
-It looks like lemurs used their right hands a lot more than they used
-their left hands...
+It looks like lemurs used their right hands a lot more than they used their left hands...
 
 ```{r}
  ggplot (L, aes(x= reorder (Limb, Limb, table ))) +
@@ -224,8 +195,7 @@ ggplot (L, aes(x= reorder (Side, Side, table ))) +
   facet_wrap (~ Species, scales = "free")
 ```
 
-Same thing but on the same scale (I got more data from sifakas as u can
-see)
+Same thing but on the same scale (I got more data from sifakas as u can see)
 
 ```{r}
 ggplot (L, aes(x= Side)) +
@@ -237,10 +207,7 @@ ggplot (L, aes(x= Side)) +
   facet_wrap (~ Species,)
 ```
 
-👀 Sifakas have higher left hand use than the other 2 species. Sifakas
-overall seem more ambidextrous. However, this could be due to them
-foraging more (maybe all lemurs forage more with their left hands or
-something idk). Therefore I should separate it out by eating behaviors.
+👀 Sifakas have higher left hand use than the other 2 species. Sifakas overall seem more ambidextrous. However, this could be due to them foraging more (maybe all lemurs forage more with their left hands or something idk). Therefore I should separate it out by eating behaviors.
 
 What about by sex
 
@@ -255,8 +222,7 @@ ggplot (L, aes(x = reorder (Limb, Limb, table ))) +
   facet_wrap (~ Sex, scales = "free")
 ```
 
-This is the same thing but just divided by left and right side (left
-hand and left foot, etc. are in the same category)
+This is the same thing but just divided by left and right side (left hand and left foot, etc. are in the same category)
 
 ```{r}
 ggplot (L, aes(x= reorder (Side, Side, table ))) +
@@ -269,12 +235,11 @@ ggplot (L, aes(x= reorder (Side, Side, table ))) +
   facet_wrap (~ Sex, scales = "free")
 ```
 
-Definitely more right hand than left HAND use for both males and
-females. Not sure about foot use, but I didn't get much foot use data to
-begin with. Is there a way to exclude foot use?
+Definitely more right hand than left HAND use for both males and females. Not sure about foot use, but I didn't get much foot use data to begin with. Is there a way to exclude foot use?
 
-Males might me a little less lateralized than females? Left hand use is
-also (slightly) higher in males like I thought it would be!
+Males might me a little less lateralized than females? Left hand use is also (slightly) higher in males like I thought it would be!
+
+------------------------------------------------------------------------
 
 ```{r}
 ggplot (L, aes(x= reorder (Category, Category, table ))) +
@@ -288,8 +253,6 @@ ggplot (L, aes(x= reorder (Category, Category, table ))) +
 ```
 
 Everyone eats a lot
-
-------------------------------------------------------------------------
 
 Some calculations
 
@@ -375,8 +338,7 @@ ggplot (l_noLA, aes(x= Side)) +
   facet_wrap (~ Category, scales = "free")
 ```
 
-So it looks like lemurs mostly use their right hand for everything
-except for grooming! Interesting
+So it looks like lemurs mostly use their right hand for everything except for grooming! Interesting
 
 Now I'm going to filter out the grooming data so it's all grasping
 
@@ -432,8 +394,7 @@ ggplot (l_foodGrasps, aes(x= Side)) +
   facet_wrap (~ Species, scales = "free")
 ```
 
-It really looks like sifakas are more ambidextrous when it comes to food
-grasping!
+It really looks like sifakas are more ambidextrous when it comes to food grasping!
 
 What about by individual?
 
@@ -447,8 +408,7 @@ ggplot (l_foodGrasps, aes(x= Side)) +
   facet_wrap (~ Focal, scales = "free")
 ```
 
-It kind of looks like Sophia and Thrax are lefties!!! And Licinius is
-close... The other lemurs look like righties!
+It kind of looks like Sophia and Thrax are lefties!!! And Licinius is close... The other lemurs look like righties!
 
 Look at them all on the same scale
 
@@ -462,8 +422,7 @@ ggplot (l_foodGrasps, aes(x= Side)) +
   facet_wrap (~ Focal)
 ```
 
-Okay there isn't much data for Sophia so it could just be "noise" for
-her... But Thrax has a lot of data
+Okay there isn't much data for Sophia so it could just be "noise" for her... But Thrax has a lot of data
 
 But is all of this actually statistically significant Don't know
 
@@ -477,8 +436,7 @@ ggplot (l_noLA, aes(x= Category)) +
   facet_wrap (~ Species)
 ```
 
-This just does occurrences. How can I get the Y-axis to be % of L
-compared to R?
+This just does occurrences. How can I get the Y-axis to be % of L compared to R?
 
 Idk
 
@@ -576,6 +534,7 @@ ggplot (l_grasps, aes(x= Side)) +
 ```
 
 ```{r}
+#I echo: false
 ggplot (L, aes(x= Limb)) +
   geom_bar(color = "black", fill = "#C84E00") +
   theme_classic() +
@@ -603,9 +562,7 @@ ggplot (l_feet, aes(x= Limb)) +
   facet_wrap (~ Focal)
 ```
 
-I don't really see any overall patterns here. It looks like Furia leads
-with her right foor more than left and Thrax leads a little more with
-his left foot than right.
+I don't really see any overall patterns here. It looks like Furia leads with her right foor more than left and Thrax leads a little more with his left foot than right.
 
 Does age impact hand use?
 
@@ -634,9 +591,7 @@ ggplot (l_noLA, aes(x= Category, fill = Side)) +
   scale_fill_manual(values = c("#1D6363", "#E89923"))
 ```
 
-It's still not exactly what I want. I want the Y-axis to be % of grasps
-being with left hand, not total times used. Splitting by color makes it
-really hard to read, but Idk how else to do it :P
+It's still not exactly what I want. I want the Y-axis to be % of grasps being with left hand, not total times used. Splitting by color makes it really hard to read, but Idk how else to do it :P
 
 ```{r}
 ggplot (l_noLA, aes(x= Side, fill = interaction(Category, Side))) +
@@ -650,9 +605,7 @@ ggplot (l_noLA, aes(x= Side, fill = interaction(Category, Side))) +
 
 Wow that it was too complicated. Why did I dare make this monstrosity?
 
-Okay, the landing and foot use data is fun and all, but the hand grasps
-it what I actually need to look at. I'm going to make that into a .CSV
-and analyze the data in JMP
+Okay, the landing and foot use data is fun and all, but the hand grasps it what I actually need to look at. I'm going to make that into a .CSV and analyze the data in JMP
 
 ```{r}
 # write_csv (l_grasps, "HandGrasps.csv")
@@ -660,36 +613,44 @@ and analyze the data in JMP
 summary(l_grasps)
 ```
 
-Testing significance:
+## Testing significance:
+
+Species (significant)
 
 ```{r}
-# species:
+#| echo: false
 table(l_grasps$Side, l_grasps$Species)
 chisq.test(table(l_grasps$Side, l_grasps$Species))
-# X-squared = 9.2063, df = 2, p-value = 0.01002
-# species is significant
+```
 
-# sex:
+Sex (not significant)
+
+```{r}
+#| echo: false
 table(l_grasps$Side, l_grasps$Sex)
 chisq.test(table(l_grasps$Side, l_grasps$Sex))
-# X-squared = 0.46415, df = 1, p-value = 0.4957
-# sex is not significant
+```
 
-# focal:
+Focal (significant)
+
+```{r}
+#| echo: false
 table(l_grasps$Side, l_grasps$Focal)
 chisq.test(table(l_grasps$Side, l_grasps$Focal))
-# X-squared = 23.257, df = 11, p-value = 0.01626
-# focal individual is significant
+```
 
-# category:
+Category (not significant)
+
+```{r}
+#I echo: false
 table(l_grasps$Side, l_grasps$Category)
 chisq.test(table(l_grasps$Side, l_grasps$Category))
-# X-squared = 1.3451, df = 2, p-value = 0.5104
-# category of behavior is not significant
+```
 
-# age:
+Age (significant)
+
+```{r}
+#I echo: false
 table(l_grasps$Side, l_grasps$Age)
 chisq.test(table(l_grasps$Side, l_grasps$Age))
-# X-squared = 20.193, df = 6, p-value = 0.002559
-# age is significant? it was not when I ran the same test in JMP though
 ```
