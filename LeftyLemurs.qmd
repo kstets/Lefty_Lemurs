@@ -618,7 +618,6 @@ summary(l_grasps)
 Species (significant)
 
 ```{r}
-#| echo: false
 table(l_grasps$Side, l_grasps$Species)
 chisq.test(table(l_grasps$Side, l_grasps$Species))
 ```
@@ -626,7 +625,6 @@ chisq.test(table(l_grasps$Side, l_grasps$Species))
 Sex (not significant)
 
 ```{r}
-#| echo: false
 table(l_grasps$Side, l_grasps$Sex)
 chisq.test(table(l_grasps$Side, l_grasps$Sex))
 ```
@@ -634,7 +632,6 @@ chisq.test(table(l_grasps$Side, l_grasps$Sex))
 Focal (significant)
 
 ```{r}
-#| echo: false
 table(l_grasps$Side, l_grasps$Focal)
 chisq.test(table(l_grasps$Side, l_grasps$Focal))
 ```
@@ -642,7 +639,6 @@ chisq.test(table(l_grasps$Side, l_grasps$Focal))
 Category (not significant)
 
 ```{r}
-#I echo: false
 table(l_grasps$Side, l_grasps$Category)
 chisq.test(table(l_grasps$Side, l_grasps$Category))
 ```
@@ -650,7 +646,6 @@ chisq.test(table(l_grasps$Side, l_grasps$Category))
 Age (significant)
 
 ```{r}
-#I echo: false
 table(l_grasps$Side, l_grasps$Age)
 chisq.test(table(l_grasps$Side, l_grasps$Age))
 ```
