@@ -263,7 +263,6 @@ summary(L)
 library(psych)
 
 describeBy(L[c(4,1:12)], group = "Category")
-# what does the 4 mean??
 ```
 
 Making a DF with just hand grasp data
@@ -609,7 +608,7 @@ Wow that it was too complicated. Why did I dare make this monstrosity?
 Okay, the landing and foot use data is fun and all, but the hand grasps it what I actually need to look at. I'm going to make that into a .CSV and analyze the data in JMP
 
 ```{r}
-# write_csv (l_grasps, "HandGrasps.csv")
+write_csv (l_grasps, "HandGrasps.csv")
 ```
 
 ## Testing significance:
@@ -643,7 +642,7 @@ chisq.test(table(l_grasps$Side, l_grasps$Category))
 Age (significant)
 ```{r}
 table(l_grasps$Side, l_grasps$Age)
-chisq.test(table(l_grasps$Side, l_grasps$Age)
+chisq.test(table(l_grasps$Side, l_grasps$Age))
 ```
 
 ```{r}
@@ -695,12 +694,7 @@ right_fg <-
 table(right_fg$Focal)
 ```
 
-Put into an Excel file and put THAT into R
-```{r}
-FoodGrasps <- read.csv("~/Documents/GitHub/Lefty_Lemurs/Food Grasps.csv")
-```
-
-Nevermind I need to find type of grasp by species first
+Find type of grasp by species first
 ```{r}
 left_fg <-
   l_foodGrasps %>%
@@ -723,9 +717,8 @@ table(right_fg$Sex)
 ```
 
 
-Installing stuff for G-Test
+Loading stuff for G-Test
 ```{r}
-install.packages("RVAideMemoire")
 library(RVAideMemoire)
 ```
 
@@ -930,7 +923,6 @@ G.test(lg_all)
 ```
 
 
-```{r}
 ```{r}
 l_FoodGrasps <-
 l_grasps %>% 
