@@ -1,0 +1,4 @@
+﻿Species,P-Value,Conf_Int_Low,Conf_Int_High,Odds_Ratio
+Sifaka,1, 0.5422522,1.8369859, 0.9975969 
+Mongoose,0.1927, 0.7024164,5.1181251,1.848276
+Ring-Tailed,0.8761, 0.562976,2.115936,1.08496

@@ -1,0 +1,10 @@
+﻿Species,Behavior,G-Score,DF,P-Value
+Sifaka,Eating,6.1736,3,0.1035
+Mongoose,Eating,31.342,3,5.38E-07
+Ring-Tailed,Eating,52.989,3,1.84E-11
+Sifaka,Resting,1.8954,3,0.5944
+Mongoose,Resting,0.45114,3,0.9295
+Ring-Tailed,Resting,0.47334,3,0.9247
+Sifaka,Locomotion,4.7271,3,0.1929
+Mongoose,Locomotion,2.5685,3,0.463
+Ring-Tailed,Locomotion,6.2568,3,0.09976
