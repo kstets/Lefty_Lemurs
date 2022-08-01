@@ -955,50 +955,52 @@ Well anyway let's make a graph
 ```{r}
 by_focal <- read.csv("~/Documents/GitHub/Lefty_Lemurs/ByFocal.csv")
 
-mean(by_focal$P.Value)
-
-ggplot(by_focal, aes(x= Species, y= P.Value)) +
-  geom_bar(stat= 'identity', color = "black", fill = "#C84E00") +
+ggplot(by_focal, aes(x= Species, y= P.Value, fill = Species)) +
+  geom_bar(stat= 'identity', color = "black") +
   theme_classic()+
   xlab("Species of Lemur") +
   ylab("P-Value (less than 0.05 is significant)") +
-  ggtitle("Is Hand Preference Independent of Individual?") +
   facet_wrap (~ Behavior) +
-  geom_text(aes(label= P.Value, x= Species, y= P.Value), vjust= -0.5) +
-  theme(text = element_text(size = 20)) +
-  theme(axis.text.x = element_text(size = 10))
+  geom_text(aes(label= P.Value, x= Species, y= P.Value), vjust= -0.6) +
+   theme(text = element_text(size = 15)) +
+     theme(axis.text.x = element_text(size = 7)) +
+   labs(caption= "Figure 1: Is Hand Preference Independent of Individual?") +
+  scale_fill_manual(values = c("#C84E00", "#E89923", "#1D6363"))
 ```
 
 Graph about biological sex
 ```{r}
 by_sex <- read.csv("~/Documents/GitHub/Lefty_Lemurs/BySex.csv")
 
-mean(by_sex$P.Value)
-
-ggplot(by_sex, aes(x= Species, y= P.Value)) +
-  geom_bar(stat= 'identity', color = "black", fill = "#1D6363") +
+ggplot(by_sex, aes(x= Species, y= P.Value, fill = Species)) +
+  geom_bar(stat= 'identity', color = "black") +
   theme_classic()+
   xlab("Species of Lemur") +
   ylab("P-Value (less than 0.05 is significant)") +
-  ggtitle("Is Hand Preference Independent of Sex?") +
-  geom_text(aes(label= P.Value, x= Species, y= P.Value), vjust= -0.5) +
-  theme(text = element_text(size = 20)) +
-  theme(axis.text.x = element_text(size = 10))
+  geom_text(aes(label= P.Value, x= Species, y= P.Value), vjust= -0.6) +
+   theme(text = element_text(size = 15)) +
+     theme(axis.text.x = element_text(size = 10)) +
+   labs(caption= "Figure 2: Is Hand Preference Independent of Sex?") +
+  scale_fill_manual(values = c("#C84E00", "#E89923", "#1D6363"))
 ```
 
 ```{r}
 by_species <- read.csv("~/Documents/GitHub/Lefty_Lemurs/BySpecies.csv")
 
-mean(by_species$P.Value)
-
 ggplot(by_species, aes(x= Behavior, y= P.Value)) +
-  geom_bar(stat= 'identity', color = "black", fill = "#993399") +
+  geom_bar(stat= 'identity', color = "black", fill = "#DAD0C6") +
   theme_classic()+
   xlab("Behavior") +
   ylab("P-Value (less than 0.05 is significant)") +
-  ggtitle("Is Hand Preference Independent of Species?") +
- geom_text(aes(label= P.Value, x= Behavior, y= P.Value), vjust= -0.5) +
-  theme(text = element_text(size = 20)) +
-  theme(axis.text.x = element_text(size = 10))
+  geom_text(aes(label= P.Value, x= Behavior, y= P.Value), vjust= -0.5) +
+  theme(text = element_text(size = 15)) +
+  theme(axis.text.x = element_text(size = 10)) +
+  labs(caption= "Figure 3: Is Hand Preference Independent of Species?")
+```
+
+```{r}
+table(left_rg$Species)
+
+table(right_rg$Species)
 ```
 
