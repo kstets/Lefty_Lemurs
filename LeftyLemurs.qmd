@@ -1,5 +1,6 @@
 ---
 title: "Lefty Lemurs"
+author: "Noah Stetson"
 format: html
 editor: source
 ---
